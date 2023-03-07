@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "description": "My github profile README repository.",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS-Schmidt/CS-Schmidt.git"
+  },
+  "author": {
+    "name": "Ethan Schmidt",
+    "email": "es.schmidt.cs@gmail.com",
+    "url": "https://www.linkedin.com/in/cs-schmidt/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CS-Schmidt/CS-Schmidt/issues"
+  },
+  "homepage": "https://github.com/CS-Schmidt/CS-Schmidt#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1"
+  }
+}

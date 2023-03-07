@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Invokes commitlint, reading the commit message in the specified file.
+# The commit-msg hook is called after entering a commit message and the only
+# argument it receives is the file that contains said commit message. Providing
+# the --edit flag will tell commitlint to fallback to COMMIT_EDITMSG if no file
+# is specified.
+npx --no -- commitlint --verbose --edit ${1}

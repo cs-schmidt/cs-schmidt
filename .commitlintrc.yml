@@ -1,0 +1,6 @@
+# Commitlint Configuration File
+
+# Specifies the configurations which serve as the "foundation" for this one.
+# Each configuration you extend should be available in node_modules.
+extends:
+  - "@commitlint/config-conventional"
