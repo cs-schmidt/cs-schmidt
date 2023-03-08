@@ -1,0 +1,1 @@
+"*": "npx prettier --config .prettierrc.yml --ignore-unknown --write"
