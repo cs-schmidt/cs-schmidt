@@ -3,7 +3,7 @@
   "description": "My github profile README repository.",
   "scripts": {
     "prepare": "husky install",
-    "format": "prettier --ignore-unknown -write ."
+    "format": "prettier --ignore-unknown --write ."
   },
   "repository": {
     "type": "git",
