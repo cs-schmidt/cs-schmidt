@@ -45,3 +45,18 @@ the MERN stack.
   </tr>
   </tbody>
 </table>
+
+# GitHub Stats
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <span><img alt="My general github stats." src="https://github-readme-stats.vercel.app/api?username=CS-Schmidt&theme=vue-dark&show_icons=true" /></span>
+      </td>
+      <td>
+        <span><img alt="My GitHub streak stats." src="https://streak-stats.demolab.com?user=CS-Schmidt&theme=vue-dark" /></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
