@@ -21,7 +21,7 @@ the MERN stack.
   <tbody>
   <tr>
     <td>
-      <img style="height: 250px" alt="GitHub language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=CS-Schmidt&layout=compact&theme=vue-dark" />
+      <img style="height: 300px" alt="GitHub language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=CS-Schmidt&layout=compact&theme=vue-dark" />
     </td>
     <td>
       <span><img alt="HTML badge." src="https://img.shields.io/badge/HTML-E34F26.svg?style=flat&logo=html5&logoColor=white" /></span>
