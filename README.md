@@ -21,7 +21,7 @@ the MERN stack.
   <tbody>
     <tr>
       <td>
-        <img style="height: 300px" alt="GitHub language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=CS-Schmidt&layout=compact&theme=vue-dark" />
+        <img style="height: 300px" alt="GitHub language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=CS-Schmidt&layout=compact&theme=vue-dark&hide_border=true&border_radius=5" />
       </td>
       <td>
         <span><img alt="HTML badge." src="https://img.shields.io/badge/HTML-E34F26.svg?style=flat&logo=html5&logoColor=white" /></span>
@@ -52,10 +52,10 @@ the MERN stack.
   <tbody>
     <tr>
       <td>
-        <span><img alt="My general github stats." src="https://github-readme-stats.vercel.app/api?username=CS-Schmidt&theme=vue-dark&show_icons=true" /></span>
+        <span><img alt="My general github stats." src="https://github-readme-stats.vercel.app/api?username=CS-Schmidt&theme=vue-dark&show_icons=true&hide_border=true&border_radius=5&count_private=true" /></span>
       </td>
       <td>
-        <span><img alt="My GitHub streak stats." src="https://streak-stats.demolab.com?user=CS-Schmidt&theme=vue-dark" /></span>
+        <span><img alt="My GitHub streak stats." src="https://streak-stats.demolab.com?user=CS-Schmidt&theme=vue-dark&hide_border=true&border_radius=5" /></span>
       </td>
     </tr>
   </tbody>
