@@ -36,8 +36,8 @@ the MERN stack.
         <span><img alt="Git badge." src="https://img.shields.io/badge/Git-F05033.svg?style=flat&logo=git&logoColor=white" /></span>
         <span><img alt="npm badge." src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" /></span>
         <span><img alt="Webpack badge." src="https://img.shields.io/badge/webpack-8d96c9.svg?style=flat&logo=webpack&logocolor=white" /></span>
-        <span><img alt="PostCSS badge." src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&logo=PostCSS&logocolor=white" /></span>
         <span><img alt="Babel badge." src="https://img.shields.io/badge/Babel-D99C2E.svg?style=flat&logo=Babel&logocolor=white" /></span>
+        <span><img alt="PostCSS badge." src="https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&logo=PostCSS&logocolor=white" /></span>
         <span><img alt="GNU Emacs badge." src="https://img.shields.io/badge/GNU%20Emacs-7F5AB6?style=flat&logo=gnuemacs&logoColor=white" /></span>
         <span><img alt="Spacemacs badge." src="https://img.shields.io/badge/Spacemacs-9266CC?style=flat&logo=spacemacs&logoColor=white" /></span>
         <span><img alt="VSCodium badge." src="https://img.shields.io/badge/VSCodium-2F207D.svg?style=flat&logo=VSCodium&logocolor=white" /></span>
