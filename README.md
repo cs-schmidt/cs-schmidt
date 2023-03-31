@@ -52,18 +52,26 @@ the MERN stack.
   <tbody>
     <tr>
       <td>
-        <img height="125" alt="Pinned card of my coin market tracker repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=coin-market-tracker&theme=vue-dark&hide_border=true" />
+        <a href="https://github.com/CS-Schmidt/coin-market-tracker">
+          <img height="150" alt="Pinned card of my coin market tracker repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=coin-market-tracker&theme=vue-dark&hide_border=true" />
+        </a>
       </td>
       <td>
-        <img height="125" alt="Pinned card of my portfolio website repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=portfolio-website&theme=vue-dark&hide_border=true" />
+        <a href="https://github.com/CS-Schmidt/portfolio-website">
+          <img height="150" alt="Pinned card of my portfolio website repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=portfolio-website&theme=vue-dark&hide_border=true" />
+        </a>
       </td>
     </tr>
     <tr>
       <td>
-        <img height="125" alt="Pinned card of my netflix clone repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=netflix-clone&theme=vue-dark&hide_border=true" />
+        <a href="https://github.com/CS-Schmidt/netflix-clone">
+        <img height="150" alt="Pinned card of my netflix clone repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=netflix-clone&theme=vue-dark&hide_border=true" />
+        </a>
       </td>
       <td>
-        <img height="125" alt="Pinned card of my CampSight repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=campsight&theme=vue-dark&hide_border=true" />
+        <a href="https://github.com/CS-Schmidt/campsight">
+          <img height="150" alt="Pinned card of my CampSight repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=campsight&theme=vue-dark&hide_border=true" />
+        </a>
       </td>
     </tr>
   </tbody>
