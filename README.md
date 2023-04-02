@@ -3,9 +3,9 @@
   Hello, Welcome to My Profile! <img src="./assets/code.gif" alt="Animation of empty HTML tag." style="width: 24px; margin-left: 5px; vertical-align: baseline;"/>
 </h2>
 
-<!-- Subtitle -->
+<!-- Sub-header -->
 <p align="center">
-  <img alt="Typing SVG animation." src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&color=41B883&pause=1000&center=true&vCenter=true&height=40&lines=MERN+stack+developer;Full-Stack+developer" />
+  <img alt="Typing SVG animation." src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&color=41B883&pause=1000&center=true&vCenter=true&height=40&lines=MERN+stack+developer;Full-stack+developer" />
 </p>
 
 <!-- About Me -->
@@ -14,6 +14,36 @@ My name is **Ethan Schmidt**, I'm a web developer from Calgary, Alberta, with a
 background in mathematical sciences. I enjoy building both front-end and
 full-stack web applications, where I mainly focus on core web technologies and
 the MERN stack.
+
+<!-- # Projects -->
+<!-- <table align="center"> -->
+<!--   <tbody> -->
+<!--     <tr> -->
+<!--       <td> -->
+<!--         <a href="https://github.com/CS-Schmidt/coin-market-tracker"> -->
+<!--           <img height="150" alt="Pinned card of my coin market tracker repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=coin-market-tracker&theme=vue-dark&hide_border=true" /> -->
+<!--         </a> -->
+<!--       </td> -->
+<!--       <td> -->
+<!--         <a href="https://github.com/CS-Schmidt/portfolio-website"> -->
+<!--           <img height="150" alt="Pinned card of my portfolio website repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=portfolio-website&theme=vue-dark&hide_border=true" /> -->
+<!--         </a> -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--     <tr> -->
+<!--       <td> -->
+<!--         <a href="https://github.com/CS-Schmidt/netflix-clone"> -->
+<!--         <img height="150" alt="Pinned card of my netflix clone repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=netflix-clone&theme=vue-dark&hide_border=true" /> -->
+<!--         </a> -->
+<!--       </td> -->
+<!--       <td> -->
+<!--         <a href="https://github.com/CS-Schmidt/campsight"> -->
+<!--           <img height="150" alt="Pinned card of my CampSight repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=campsight&theme=vue-dark&hide_border=true" /> -->
+<!--         </a> -->
+<!--       </td> -->
+<!--     </tr> -->
+<!--   </tbody> -->
+<!-- </table> -->
 
 # Languages and Tools
 
@@ -45,37 +75,6 @@ the MERN stack.
     </tr>
   </tbody>
 </table>
-
-<!-- # Projects -->
-
-<!-- <table align="center"> -->
-<!--   <tbody> -->
-<!--     <tr> -->
-<!--       <td> -->
-<!--         <a href="https://github.com/CS-Schmidt/coin-market-tracker"> -->
-<!--           <img height="150" alt="Pinned card of my coin market tracker repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=coin-market-tracker&theme=vue-dark&hide_border=true" /> -->
-<!--         </a> -->
-<!--       </td> -->
-<!--       <td> -->
-<!--         <a href="https://github.com/CS-Schmidt/portfolio-website"> -->
-<!--           <img height="150" alt="Pinned card of my portfolio website repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=portfolio-website&theme=vue-dark&hide_border=true" /> -->
-<!--         </a> -->
-<!--       </td> -->
-<!--     </tr> -->
-<!--     <tr> -->
-<!--       <td> -->
-<!--         <a href="https://github.com/CS-Schmidt/netflix-clone"> -->
-<!--         <img height="150" alt="Pinned card of my netflix clone repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=netflix-clone&theme=vue-dark&hide_border=true" /> -->
-<!--         </a> -->
-<!--       </td> -->
-<!--       <td> -->
-<!--         <a href="https://github.com/CS-Schmidt/campsight"> -->
-<!--           <img height="150" alt="Pinned card of my CampSight repo." src="https://github-readme-stats.vercel.app/api/pin/?username=CS-Schmidt&repo=campsight&theme=vue-dark&hide_border=true" /> -->
-<!--         </a> -->
-<!--       </td> -->
-<!--     </tr> -->
-<!--   </tbody> -->
-<!-- </table> -->
 
 # GitHub Stats
 
