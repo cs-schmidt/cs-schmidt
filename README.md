@@ -10,8 +10,8 @@
 
 <!-- About Me -->
 
-My name is **Ethan Schmidt**, I'm a web developer from Calgary, Alberta, with a
-background in mathematical sciences. I enjoy building both front-end and
+My name is **Ethan Schmidt** and I'm a web developer from Calgary, Alberta, with
+a background in mathematical sciences. I enjoy building both front-end and
 full-stack web applications, where I mainly focus on core web technologies and
 the MERN stack.
 
