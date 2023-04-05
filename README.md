@@ -56,6 +56,7 @@ the MERN stack.
       <td>
         <span><img alt="HTML badge." src="https://img.shields.io/badge/HTML-E34F26.svg?style=flat&logo=html5&logoColor=white" /></span>
         <span><img alt="CSS badge." src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=css3&logoColor=white" /></span>
+        <span><img alt="SASS badge." src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=sass&logoColor=white" /></span>
         <span><img alt="JavaScript badge." src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black" /></span>
         <span><img alt="Node.js badge." src="https://img.shields.io/badge/Node.js-43853D.svg?style=flat&logo=node.js&logoColor=white" /></span>
         <span><img alt="LaTeX badge." src="https://img.shields.io/badge/LaTeX-008080.svg?style=flat&logo=latex&logoColor=white" /></span>
