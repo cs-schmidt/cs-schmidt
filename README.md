@@ -15,9 +15,9 @@ a background in mathematical sciences. I enjoy building both front-end and
 full-stack web applications, where I mainly focus on core web technologies and
 the MERN stack.
 
-# Languages and Tools
-
 ---
+
+# Languages and Tools
 
 <table>
   <tbody>
@@ -50,8 +50,6 @@ the MERN stack.
 </table>
 
 # GitHub Stats
-
----
 
 <table>
   <tbody>
