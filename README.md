@@ -5,7 +5,7 @@
 
 <!-- Sub-heading -->
 <p align="center">
-  <img alt="Typing SVG animation." src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&color=41B883&pause=1000&center=true&vCenter=true&height=40&lines=MERN+stack+developer;Full-stack+developer" />
+  <img alt="Typing SVG animation." src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&color=41B883&pause=1000&center=true&vCenter=true&height=40&lines=Web+developer;Front-end+developer;Full-stack+developer" />
 </p>
 
 <!-- About Me -->
