@@ -15,8 +15,6 @@ a background in mathematical sciences. I enjoy building both front-end and
 full-stack web applications, where I mainly focus on core web technologies and
 the MERN stack.
 
----
-
 # Languages and Tools
 
 <table>
@@ -30,6 +28,7 @@ the MERN stack.
         <span><img alt="CSS badge." src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=css3&logoColor=white" /></span>
         <span><img alt="SASS badge." src="https://img.shields.io/badge/Sass-CC6699.svg?style=flat&logo=sass&logoColor=white" /></span>
         <span><img alt="JavaScript badge." src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black" /></span>
+        <span><img alt="TypeScript badge." src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=typescript&logoColor=white" /></span>
         <span><img alt="Node.js badge." src="https://img.shields.io/badge/Node.js-43853D.svg?style=flat&logo=node.js&logoColor=white" /></span>
         <span><img alt="LaTeX badge." src="https://img.shields.io/badge/LaTeX-008080.svg?style=flat&logo=latex&logoColor=white" /></span>
         <span><img alt="React badge." src="https://img.shields.io/badge/React-20232a.svg?style=flat&logo=react&logoColor=2361DAFB" /></span>
