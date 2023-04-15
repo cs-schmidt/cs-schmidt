@@ -1,9 +1,14 @@
 #!/usr/bin/env sh
+#
+# Git Commit Message Hook
+#
+# A local git hook that runs after a commit message is entered, recieving the
+# file containing the commit message as its only argument.
+
+# Executes the husky shell script.
 . "$(dirname -- "$0")/_/husky.sh"
 
-# Invokes commitlint, reading the commit message in the specified file.
-# The commit-msg hook is called after entering a commit message and the only
-# argument it receives is the file that contains said commit message. Providing
-# the --edit flag will tell commitlint to fallback to COMMIT_EDITMSG if no file
-# is specified.
-npx --no -- commitlint --verbose --edit ${1}
+# Runs commitlint against the file containing the commit message. The `--edit`
+# flag tells commitlint to fallback to `COMMIT_EDITMSG` in the .git folder if no
+# file is passed to the positional argument.
+npx commitlint --verbose --edit ${1}

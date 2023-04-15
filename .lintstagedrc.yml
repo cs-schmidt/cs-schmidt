@@ -1,1 +1,10 @@
-"*": "npx prettier --config .prettierrc.yml --ignore-unknown --write"
+# Lint-Staged Configuration
+#
+# Matches files in the git staging area (keys) and applies the commands (values)
+# with the files as input; keys use extended globbing.
+
+# Formats all files prettier supports.
+"**/?(.)*": "prettier --plugin=@prettier/plugin-xml --ignore-unknown --write"
+
+# Sorts package.json file's keys.
+"package.json": "sort-package-json"

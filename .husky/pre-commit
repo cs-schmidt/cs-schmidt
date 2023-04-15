@@ -1,4 +1,14 @@
 #!/usr/bin/env sh
+#
+# Git Pre-Commit Hook
+#
+# A local git hook that runs every time `git commit` is executed, but before the
+# user is prompted for input.
+
+# Executes the husky shell script.
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged
+# Runs the specified commands in the lint-staged config on staged git files.
+# With the `--concurrent` flag set to `false` lint-staged will avoid issues
+# caused by race conditions.
+npx lint-staged --concurrent false --verbose

@@ -1,7 +1,9 @@
-# Consists of all relevant settings that affect markdown formatting.
-bracketSameLine: true
+# General options.
 endOfLine: lf
-printWidth: 80
 proseWrap: preserve
+printWidth: 80
 tabWidth: 2
 useTabs: false
+
+# XML-specific options.
+bracketSameLine: true

@@ -1,6 +1,3 @@
-# Commitlint Configuration File
-
-# Specifies the configurations which serve as the "foundation" for this one.
-# Each configuration you extend should be available in node_modules.
+# Lists the commitlint configurations where properties are being inherited.
 extends:
-  - "@commitlint/config-conventional"
+  - "@commitlint/config-conventional" # Enforce Conventional Commits standard
