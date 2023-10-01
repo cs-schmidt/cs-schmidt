@@ -1,18 +1,18 @@
 {
   "private": true,
   "description": "GitHub profile README repository.",
-  "homepage": "https://github.com/CS-Schmidt/CS-Schmidt#readme",
+  "homepage": "https://github.com/cs-schmidt/cs-schmidt#readme",
   "bugs": {
-    "url": "https://github.com/CS-Schmidt/CS-Schmidt/issues"
+    "url": "https://github.com/cs-schmidt/cs-schmidt/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CS-Schmidt/CS-Schmidt.git"
+    "url": "git+https://github.com/cs-schmidt/cs-schmidt.git"
   },
   "author": {
     "name": "Ethan Schmidt",
-    "email": "es.schmidt.cs@gmail.com",
-    "url": "https://github.com/CS-Schmidt"
+    "email": "ebs.euler@gmail.com",
+    "url": "https://github.com/cs-schmidt"
   },
   "scripts": {
     "format": "sort-package-json package.json && prettier --plugin=@prettier/plugin-xml --ignore-unknown --write .",
