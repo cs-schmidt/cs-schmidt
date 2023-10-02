@@ -23,7 +23,7 @@ the MERN stack.
   <tbody>
     <tr>
       <td align="center">
-        <img alt="Language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=CS-Schmidt&layout=compact&theme=vue-dark&langs_count=8&hide_border=true&border_radius=5"/>
+        <img alt="Language usage stats." src="https://github-readme-stats.vercel.app/api/top-langs/?username=cs-schmidt&layout=compact&theme=vue-dark&langs_count=8&hide_border=true&border_radius=5"/>
       </td>
       <td align="center">
         <img alt="Languages and tools." src="assets/langs.svg"/>
@@ -31,10 +31,10 @@ the MERN stack.
     </tr>
     <tr>
       <td align="center">
-        <img alt="General GitHub stats." src="https://github-readme-stats.vercel.app/api?username=CS-Schmidt&theme=vue-dark&show_icons=true&hide_border=true&border_radius=5&count_private=true" />
+        <img alt="General GitHub stats." src="https://github-readme-stats.vercel.app/api?username=cs-schmidt&theme=vue-dark&show_icons=true&hide_border=true&border_radius=5&count_private=true" />
       </td>
       <td align="center">
-        <img alt="GitHub streak stats." src="https://streak-stats.demolab.com?user=CS-Schmidt&theme=vue-dark&hide_border=true&border_radius=5" />
+        <img alt="GitHub streak stats." src="https://streak-stats.demolab.com?user=cs-schmidt&theme=vue-dark&hide_border=true&border_radius=5" />
       </td>
     </tr>
   </tbody>
