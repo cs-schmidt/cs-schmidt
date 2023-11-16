@@ -1,7 +1,7 @@
 <!-- Introduction -->
 <h1 align="center">
   Hello, Welcome to My Profile!
-  <img style="width: 1.875rem; margin-left: 0.5rem; vertical-align: -3;" 
+  <img style="width: 30px; margin-left: 0.5rem; vertical-align: -3;" 
        src="assets/code.gif"
        alt="Animation of empty HTML tag." />
 </h1>
@@ -13,8 +13,8 @@
 
 My name is **Ethan** and I'm a web developer from Calgary, Alberta, with a
 background in mathematical sciences. I enjoy building both frontend and
-fullstack web applications, where I mainly focus on core web technologies and
-the MERN stack.
+fullstack web applications, where I mainly focus on core web technologies,
+React, and TypeScript.
 
 ---
 
