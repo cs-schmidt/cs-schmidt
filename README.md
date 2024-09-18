@@ -1,6 +1,6 @@
 <!-- Introduction -->
 <h1 align="center">
-  Hello, Welcome to My Profile!
+  Hello, Thanks for Stopping By!
   <img style="width: 30px; margin-left: 0.5rem; vertical-align: -3;" 
        src="assets/code.gif"
        alt="Animation of empty HTML tag." />
