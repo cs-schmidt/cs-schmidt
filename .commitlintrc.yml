@@ -1,3 +1,4 @@
 # Lists the commitlint configurations where properties are being inherited.
 extends:
-  - "@commitlint/config-conventional" # Enforce Conventional Commits standard
+  # Enforces Conventional Commits standard.
+  - "@commitlint/config-conventional"

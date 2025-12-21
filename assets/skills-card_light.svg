@@ -1,0 +1,818 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="460"
+  height="190"
+  viewBox="0 0 460 190"
+  role="img">
+  <title>Expertise Badges</title>
+
+  <!-- Card Background -->
+  <rect
+    class="card__bg"
+    width="100%"
+    height="100%"
+    rx="10"
+    ry="10"
+    stroke="#E4E2E2"
+    fill="#FFFEFE" />
+
+  <!-- HTML Badge -->
+  <svg
+    class="badge"
+    x="26"
+    y="8"
+    width="61"
+    height="22"
+    viewBox="0 0 61 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="html-label">
+    <title id="html-label">HTML</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#C85125" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkhUTUw1PC90aXRsZT48cGF0aCBkPSJNMS41IDBoMjFsLTEuOTEgMjEuNTYzTDExLjk3NyAyNGwtOC41NjQtMi40MzhMMS41IDB6bTcuMDMxIDkuNzVsLS4yMzItMi43MTggMTAuMDU5LjAwMy4yMy0yLjYyMkw1LjQxMiA0LjQxbC42OTggOC4wMWg5LjEyNmwtLjMyNiAzLjQyNi0yLjkxLjgwNC0yLjk1NS0uODEtLjE4OC0yLjExSDYuMjQ4bC4zMyA0LjE3MUwxMiAxOS4zNTFsNS4zNzktMS40NDMuNzQ0LTguMTU3SDguNTMxeiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="32" font-weight="600">
+        HTML
+      </text>
+    </g>
+  </svg>
+
+  <!-- CSS Badge -->
+  <svg
+    class="badge"
+    x="103"
+    y="8"
+    width="49"
+    height="22"
+    viewBox="0 0 49 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="css-label">
+    <title id="css-label">CSS</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#974FE0" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkNTUzwvdGl0bGU+PHBhdGggZD0iTTAgMHYyMC4xNkEzLjg0IDMuODQgMCAwIDAgMy44NCAyNGgxNi4zMkEzLjg0IDMuODQgMCAwIDAgMjQgMjAuMTZWMy44NEEzLjg0IDMuODQgMCAwIDAgMjAuMTYgMFptMTQuMjU2IDEzLjA4YzEuNTYgMCAyLjI4IDEuMDggMi4zMDQgMi42NGgtMS42MDhjLjAyNC0uMjg4LS4wNDgtLjYtLjE0NC0uODQtLjA5Ni0uMTkyLS4yODgtLjI2NC0uNTUyLS4yNjQtLjQ1NiAwLS42OTYuMjY0LS42OTYuODQtLjAyNC41NzYuMjg4Ljg4OC43NjggMS4wOC43Mi4yODggMS42MDguNzQ0IDEuOTIgMS4yOTZxLjQzMi42NDguNDMyIDEuNjU2YzAgMS42MDgtLjkxMiAyLjU5Mi0yLjQ5NiAyLjU5Mi0xLjY1NiAwLTIuNC0xLjAzMi0yLjQyNC0yLjY4OGgxLjY4YzAgLjc5Mi4yNjQgMS4xNzYuNzkyIDEuMTc2LjI2NCAwIC40NTYtLjA3Mi41NTItLjI0LjE5Mi0uMzEyLjI0LTEuMTc2LS4wNDgtMS41MTItLjMxMi0uNDA4LS45MTItLjYtMS4zMi0uODE2cS0uODI4LS4zOTYtMS4yMjQtLjkzNmMtLjI0LS4zNi0uMzYtLjg4OC0uMzYtMS41MzYgMC0xLjQ0LjkzNi0yLjQ3MiAyLjQyNC0yLjQ0OG01LjQgMGMxLjU4NCAwIDIuMzA0IDEuMDggMi4zMjggMi42NGgtMS42MDhjMC0uMjg4LS4wNDgtLjYtLjE2OC0uODQtLjA5Ni0uMTkyLS4yNjQtLjI2NC0uNTI4LS4yNjQtLjQ4IDAtLjcyLjI2NC0uNzIuODRzLjI4OC44ODguNzkyIDEuMDhjLjY5Ni4yODggMS42MDguNzQ0IDEuOTIgMS4yOTYuMjY0LjQzMi40MDguOTg0LjQwOCAxLjY1Ni4wMjQgMS42MDgtLjg4OCAyLjU5Mi0yLjQ3MiAyLjU5Mi0xLjY4IDAtMi40MjQtMS4wNTYtMi40NDgtMi42ODhoMS42OGMwIC43NDQuMjY0IDEuMTc2Ljc5MiAxLjE3Ni4yNjQgMCAuNDU2LS4wNzIuNTUyLS4yNC4yMTYtLjMxMi4yNjQtMS4xNzYtLjA0OC0xLjUxMi0uMjg4LS40MDgtLjg4OC0uNi0xLjMyLS44MTYtLjU1Mi0uMjY0LS45Ni0uNTc2LTEuMi0uOTM2cy0uMzYtLjg4OC0uMzYtMS41MzZjLS4wMjQtMS40NC45MTItMi40NzIgMi40LTIuNDQ4bS0xMS4wMzEuMDE4Yy43MTEtLjAwNiAxLjQxOS4xOTggMS44MzkuNjMuNDMyLjQzMi42NzIgMS4xMjguNjQ4IDEuOTkySDkuMzM2Yy4wMjQtLjQ1Ni0uMDk2LS43OTItLjQzMi0uOTYtLjMxMi0uMTQ0LS43NjgtLjA0OC0uODg4LjI0LS4xMi4yNjQtLjE5Mi41NzYtLjE2OC44NjR2My41MDRjMCAuNzQ0LjI2NCAxLjEyOC43NjggMS4xMjhhLjY1LjY1IDAgMCAwIC41NTItLjI2NGMuMTY4LS4yNC4xOTItLjU1Mi4xNjgtLjg0aDEuNzc2Yy4wOTYgMS42MzItLjk4NCAyLjcxMi0yLjU2OCAyLjY4OC0xLjUzNiAwLTIuNDk2LS44NjQtMi40NzItMi40NzJ2LTQuMDMyYzAtLjgxNi4yNC0xLjQ0LjY5Ni0xLjg0OC40MzItLjQwOCAxLjE0Ni0uNjI0IDEuODU3LS42MyIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="20" font-weight="600">
+        CSS
+      </text>
+    </g>
+  </svg>
+
+  <!-- Sass Badge -->
+  <svg
+    class="badge"
+    x="168"
+    y="8"
+    width="54"
+    height="22"
+    viewBox="0 0 54 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="sass-label">
+    <title id="sass-label">Sass</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#B25885" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlNhc3M8L3RpdGxlPjxwYXRoIGQ9Ik0xMiAwYzYuNjI3IDAgMTIgNS4zNzMgMTIgMTJzLTUuMzczIDEyLTEyIDEyUzAgMTguNjI3IDAgMTIgNS4zNzMgMCAxMiAwek05LjYxNSAxNS45OThjLjE3NS42NDUuMTU2IDEuMjQ4LS4wMjQgMS43OTJsLS4wNjUuMThjLS4wMjQuMDYxLS4wNTIuMTItLjA3OC4xNzYtLjE0LjI5LS4zMjYuNTYtLjU1NS44MS0uNjk4Ljc1OS0xLjY3MiAxLjA0Ny0yLjA5LjgwNS0uNDUtLjI2Mi0uMjI2LTEuMzM1LjU4NC0yLjE5Ljg3MS0uOTE4IDIuMTItMS41MDkgMi4xMi0xLjUwOXYtLjAwM2wuMTA4LS4wNjF6bTkuOTExLTEwLjg2MWMtLjU0Mi0yLjEzMy00LjA3Ny0yLjgzNC03LjQyMi0xLjY0NS0xLjk4OS43MDctNC4xNDQgMS44MTgtNS42OTMgMy4yNjdDNC41NjggOC40OCA0LjI3NSA5Ljk4IDQuMzk2IDEwLjYwN2MuNDI3IDIuMjExIDMuNDU3IDMuNjU3IDQuNzAzIDQuNzN2LjAwNmMtLjM2Ny4xOC0zLjA1NiAxLjUyOS0zLjY4NiAyLjkyNS0uNjc1IDEuNDcuMTA1IDIuNTIxLjYxNSAyLjY1NSAxLjU3NS40MzYgMy4xOTUtLjM2IDQuMDY1LTEuNjQ5Ljg0LTEuMjYxLjc2Ni0yLjg4MS40MDQtMy42NzYuNDk2LS4xMzUgMS4wOC0uMTk1IDEuODMtLjEwNCAyLjEwMS4yNCAyLjUyMSAxLjU2IDIuNDMgMi4xLS4wOS41MzktLjUyMy44NTQtLjY3NC45NDQtLjE1LjA5MS0uMTk1LjEyLS4xODEuMTgxLjAxNS4wOS4wOTEuMDkuMjEuMDc1LjE2NS0uMDMgMS4wOTYtLjQ1IDEuMTQxLTEuNDcxLjA0NS0xLjI5LTEuMTg2LTIuNzI5LTMuMzc1LTIuNy0uOS4wMTYtMS40NzEuMDkxLTEuODc1LjI1Ni0uMDMtLjA0NS0uMDYxLS4wNzUtLjEwNS0uMTA1LTEuMzUtMS40NTUtMy44NTUtMi40NzUtMy43NS00LjQxLjAzLS43MDUuMjg1LTIuNTY0IDQuOC00LjgxNCAzLjcwNS0xLjg0NiA2LjY2MS0xLjMzNSA3LjE3MS0uMjEuNzMzIDEuNjA0LTEuNTc2IDQuNTktNS40MzEgNS4wMjQtMS40Ny4xNjUtMi4yMzUtLjQwNC0yLjQzMS0uNjE1LS4yMDktLjIyNS0uMjM5LS4yNC0uMzE0LS4xOTQtLjEyLjA2LS4wNDUuMjU1IDAgLjM3NS4xMi4zLjU4NS44MjUgMS4zOTYgMS4wOTUuNzA0LjIyNSAyLjQzLjM1OSA0LjUtLjQ1IDIuMzI0LS44OTkgNC4xMzktMy40MDUgMy42MTQtNS41MDVsLjA3My4wNjd6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="25" font-weight="600">
+        Sass
+      </text>
+    </g>
+  </svg>
+
+  <!-- JavaScript Badge -->
+  <svg
+    class="badge"
+    x="238"
+    y="8"
+    width="90"
+    height="22"
+    viewBox="0 0 90 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="js-label">
+    <title id="js-label">JavaScript</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#85770B" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPkphdmFTY3JpcHQ8L3RpdGxlPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHptMjIuMDM0IDE4LjI3NmMtLjE3NS0xLjA5NS0uODg4LTIuMDE1LTMuMDAzLTIuODczLS43MzYtLjM0NS0xLjU1NC0uNTg1LTEuNzk3LTEuMTQtLjA5MS0uMzMtLjEwNS0uNTEtLjA0Ni0uNzA1LjE1LS42NDYuOTE1LS44NCAxLjUxNS0uNjYuMzkuMTIuNzUuNDIuOTc2LjkgMS4wMzQtLjY3NiAxLjAzNC0uNjc2IDEuNzU1LTEuMTI1LS4yNy0uNDItLjQwNC0uNjAxLS41ODYtLjc4LS42My0uNzA1LTEuNDY5LTEuMDY1LTIuODM0LTEuMDM0bC0uNzA1LjA4OWMtLjY3Ni4xNjUtMS4zMi41MjUtMS43MSAxLjAwNS0xLjE0IDEuMjkxLS44MTEgMy41NDEuNTY5IDQuNDcxIDEuMzY1IDEuMDIgMy4zNjEgMS4yNDQgMy42MTYgMi4yMDUuMjQgMS4xNy0uODcgMS41NDUtMS45NjYgMS40MS0uODExLS4xOC0xLjI2LS41ODYtMS43NTUtMS4zMzZsLTEuODMgMS4wNTFjLjIxLjQ4LjQ1LjY4OS44MSAxLjEwOSAxLjc0IDEuNzU2IDYuMDkgMS42NjYgNi44NzEtMS4wMDQuMDI5LS4wOS4yNC0uNzA1LjA3NC0xLjY1em0tOC45ODMtNy4yNDVoLTIuMjQ4YzAgMS45MzgtLjAwOSAzLjg2NC0uMDA5IDUuODA1IDAgMS4yMzIuMDYzIDIuMzYzLS4xMzggMi43MTEtLjMzLjY4OS0xLjE4LjYwMS0xLjU2Ni40OC0uMzk2LS4xOTYtLjU5Ny0uNDY2LS44My0uODU1LS4wNjMtLjEwNS0uMTEtLjE5Ni0uMTI3LS4xOTZsLTEuODI1IDEuMTI1Yy4zMDUuNjMuNzUgMS4xNzIgMS4zMjQgMS41MTcuODU1LjUxIDIuMDA0LjY3NSAzLjIwNy40MDUuNzgzLS4yMjYgMS40NTgtLjY5MSAxLjgxMS0xLjQxMS41MS0uOTMuNDAyLTIuMDcuMzk3LTMuMzQ2LjAxMi0yLjA1NCAwLTQuMTA5IDAtNi4xNzl6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="61" font-weight="600">
+        JavaScript
+      </text>
+    </g>
+  </svg>
+
+  <!-- TypeScript Badge -->
+  <svg
+    class="badge"
+    x="344"
+    y="8"
+    width="92"
+    height="22"
+    viewBox="0 0 92 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="ts-label">
+    <title id="ts-label">TypeScript</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#3178C7" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VHlwZVNjcmlwdDwvdGl0bGU+PHBhdGggZD0iTTEuMTI1IDBDLjUwMiAwIDAgLjUwMiAwIDEuMTI1djIxLjc1QzAgMjMuNDk4LjUwMiAyNCAxLjEyNSAyNGgyMS43NWMuNjIzIDAgMS4xMjUtLjUwMiAxLjEyNS0xLjEyNVYxLjEyNUMyNCAuNTAyIDIzLjQ5OCAwIDIyLjg3NSAwem0xNy4zNjMgOS43NWMuNjEyIDAgMS4xNTQuMDM3IDEuNjI3LjExMWE2LjM4IDYuMzggMCAwIDEgMS4zMDYuMzR2Mi40NThhMy45NSAzLjk1IDAgMCAwLS42NDMtLjM2MSA1LjA5MyA1LjA5MyAwIDAgMC0uNzE3LS4yNiA1LjQ1MyA1LjQ1MyAwIDAgMC0xLjQyNi0uMmMtLjMgMC0uNTczLjAyOC0uODE5LjA4NmEyLjEgMi4xIDAgMCAwLS42MjMuMjQyYy0uMTcuMTA0LS4zLjIyOS0uMzkzLjM3NGEuODg4Ljg4OCAwIDAgMC0uMTQuNDljMCAuMTk2LjA1My4zNzMuMTU2LjUyOS4xMDQuMTU2LjI1Mi4zMDQuNDQzLjQ0NHMuNDIzLjI3Ni42OTYuNDFjLjI3My4xMzUuNTgyLjI3NC45MjYuNDE2LjQ3LjE5Ny44OTIuNDA3IDEuMjY2LjYyOC4zNzQuMjIyLjY5NS40NzMuOTYzLjc1My4yNjguMjc5LjQ3Mi41OTguNjE0Ljk1Ny4xNDIuMzU5LjIxNC43NzYuMjE0IDEuMjUzIDAgLjY1Ny0uMTI1IDEuMjEtLjM3MyAxLjY1NmEzLjAzMyAzLjAzMyAwIDAgMS0xLjAxMiAxLjA4NSA0LjM4IDQuMzggMCAwIDEtMS40ODcuNTk2Yy0uNTY2LjEyLTEuMTYzLjE4LTEuNzkuMThhOS45MTYgOS45MTYgMCAwIDEtMS44NC0uMTY0IDUuNTQ0IDUuNTQ0IDAgMCAxLTEuNTEyLS40OTN2LTIuNjNhNS4wMzMgNS4wMzMgMCAwIDAgMy4yMzcgMS4yYy4zMzMgMCAuNjI0LS4wMy44NzItLjA5LjI0OS0uMDYuNDU2LS4xNDQuNjIzLS4yNS4xNjYtLjEwOC4yOS0uMjM0LjM3My0uMzhhMS4wMjMgMS4wMjMgMCAwIDAtLjA3NC0xLjA4OSAyLjEyIDIuMTIgMCAwIDAtLjUzNy0uNSA1LjU5NyA1LjU5NyAwIDAgMC0uODA3LS40NDQgMjcuNzIgMjcuNzIgMCAwIDAtMS4wMDctLjQzNmMtLjkxOC0uMzgzLTEuNjAyLS44NTItMi4wNTMtMS40MDUtLjQ1LS41NTMtLjY3Ni0xLjIyMi0uNjc2LTIuMDA1IDAtLjYxNC4xMjMtMS4xNDEuMzY5LTEuNTgyLjI0Ni0uNDQxLjU4LS44MDQgMS4wMDQtMS4wODlhNC40OTQgNC40OTQgMCAwIDEgMS40Ny0uNjI5IDcuNTM2IDcuNTM2IDAgMCAxIDEuNzctLjIwMXptLTE1LjExMy4xODhoOS41NjN2Mi4xNjZIOS41MDZ2OS42NDZINi43ODl2LTkuNjQ2SDMuMzc1eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="63" font-weight="600">
+        TypeScript
+      </text>
+    </g>
+  </svg>
+
+  <!-- Node.js Badge -->
+  <svg
+    class="badge"
+    x="20.5"
+    y="46"
+    width="73"
+    height="22"
+    viewBox="0 0 73 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="nodejs-label">
+    <title id="nodejs-label">Node.js</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#4C813E" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Tm9kZS5qczwvdGl0bGU+PHBhdGggZD0iTTExLjk5OCwyNGMtMC4zMjEsMC0wLjY0MS0wLjA4NC0wLjkyMi0wLjI0N2wtMi45MzYtMS43MzdjLTAuNDM4LTAuMjQ1LTAuMjI0LTAuMzMyLTAuMDgtMC4zODMgYzAuNTg1LTAuMjAzLDAuNzAzLTAuMjUsMS4zMjgtMC42MDRjMC4wNjUtMC4wMzcsMC4xNTEtMC4wMjMsMC4yMTgsMC4wMTdsMi4yNTYsMS4zMzljMC4wODIsMC4wNDUsMC4xOTcsMC4wNDUsMC4yNzIsMGw4Ljc5NS01LjA3NiBjMC4wODItMC4wNDcsMC4xMzQtMC4xNDEsMC4xMzQtMC4yMzhWNi45MjFjMC0wLjA5OS0wLjA1My0wLjE5Mi0wLjEzNy0wLjI0MmwtOC43OTEtNS4wNzJjLTAuMDgxLTAuMDQ3LTAuMTg5LTAuMDQ3LTAuMjcxLDAgTDMuMDc1LDYuNjhDMi45OSw2LjcyOSwyLjkzNiw2LjgyNSwyLjkzNiw2LjkyMXYxMC4xNWMwLDAuMDk3LDAuMDU0LDAuMTg5LDAuMTM5LDAuMjM1bDIuNDA5LDEuMzkyIGMxLjMwNywwLjY1NCwyLjEwOC0wLjExNiwyLjEwOC0wLjg5VjcuNzg3YzAtMC4xNDIsMC4xMTQtMC4yNTMsMC4yNTYtMC4yNTNoMS4xMTVjMC4xMzksMCwwLjI1NSwwLjExMiwwLjI1NSwwLjI1M3YxMC4wMjEgYzAsMS43NDUtMC45NSwyLjc0NS0yLjYwNCwyLjc0NWMtMC41MDgsMC0wLjkwOSwwLTIuMDI2LTAuNTUxTDIuMjgsMTguNjc1Yy0wLjU3LTAuMzI5LTAuOTIyLTAuOTQ1LTAuOTIyLTEuNjA0VjYuOTIxIGMwLTAuNjU5LDAuMzUzLTEuMjc1LDAuOTIyLTEuNjAzbDguNzk1LTUuMDgyYzAuNTU3LTAuMzE1LDEuMjk2LTAuMzE1LDEuODQ4LDBsOC43OTQsNS4wODJjMC41NywwLjMyOSwwLjkyNCwwLjk0NCwwLjkyNCwxLjYwMyB2MTAuMTVjMCwwLjY1OS0wLjM1NCwxLjI3My0wLjkyNCwxLjYwNGwtOC43OTQsNS4wNzhDMTIuNjQzLDIzLjkxNiwxMi4zMjQsMjQsMTEuOTk4LDI0eiBNMTkuMDk5LDEzLjk5MyBjMC0xLjktMS4yODQtMi40MDYtMy45ODctMi43NjNjLTIuNzMxLTAuMzYxLTMuMDA5LTAuNTQ4LTMuMDA5LTEuMTg3YzAtMC41MjgsMC4yMzUtMS4yMzMsMi4yNTgtMS4yMzMgYzEuODA3LDAsMi40NzMsMC4zODksMi43NDcsMS42MDdjMC4wMjQsMC4xMTUsMC4xMjksMC4xOTksMC4yNDcsMC4xOTloMS4xNDFjMC4wNzEsMCwwLjEzOC0wLjAzMSwwLjE4Ni0wLjA4MSBjMC4wNDgtMC4wNTQsMC4wNzQtMC4xMjMsMC4wNjctMC4xOTZjLTAuMTc3LTIuMDk4LTEuNTcxLTMuMDc2LTQuMzg4LTMuMDc2Yy0yLjUwOCwwLTQuMDA0LDEuMDU4LTQuMDA0LDIuODMzIGMwLDEuOTI1LDEuNDg4LDIuNDU3LDMuODk1LDIuNjk1YzIuODgsMC4yODIsMy4xMDMsMC43MDMsMy4xMDMsMS4yNjljMCwwLjk4My0wLjc4OSwxLjQwMi0yLjY0MiwxLjQwMiBjLTIuMzI3LDAtMi44MzktMC41ODQtMy4wMTEtMS43NDJjLTAuMDItMC4xMjQtMC4xMjYtMC4yMTUtMC4yNTMtMC4yMTVoLTEuMTM3Yy0wLjE0MSwwLTAuMjU0LDAuMTEyLTAuMjU0LDAuMjUzIGMwLDEuNDgyLDAuODA2LDMuMjQ4LDQuNjU1LDMuMjQ4QzE3LjUwMSwxNy4wMDcsMTkuMDk5LDE1LjkxLDE5LjA5OSwxMy45OTN6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="44" font-weight="600">
+        Node.js
+      </text>
+    </g>
+  </svg>
+
+  <!-- Python Badge -->
+  <svg
+    class="badge"
+    x="109.5"
+    y="46"
+    width="71"
+    height="22"
+    viewBox="0 0 71 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="python-label">
+    <title id="python-label">Python</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#3879AF" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UHl0aG9uPC90aXRsZT48cGF0aCBkPSJNMTQuMjUuMThsLjkuMi43My4yNi41OS4zLjQ1LjMyLjM0LjM0LjI1LjM0LjE2LjMzLjEuMy4wNC4yNi4wMi4yLS4wMS4xM1Y4LjVsLS4wNS42My0uMTMuNTUtLjIxLjQ2LS4yNi4zOC0uMy4zMS0uMzMuMjUtLjM1LjE5LS4zNS4xNC0uMzMuMS0uMy4wNy0uMjYuMDQtLjIxLjAySDguNzdsLS42OS4wNS0uNTkuMTQtLjUuMjItLjQxLjI3LS4zMy4zMi0uMjcuMzUtLjIuMzYtLjE1LjM3LS4xLjM1LS4wNy4zMi0uMDQuMjctLjAyLjIxdjMuMDZIMy4xN2wtLjIxLS4wMy0uMjgtLjA3LS4zMi0uMTItLjM1LS4xOC0uMzYtLjI2LS4zNi0uMzYtLjM1LS40Ni0uMzItLjU5LS4yOC0uNzMtLjIxLS44OC0uMTQtMS4wNS0uMDUtMS4yMy4wNi0xLjIyLjE2LTEuMDQuMjQtLjg3LjMyLS43MS4zNi0uNTcuNC0uNDQuNDItLjMzLjQyLS4yNC40LS4xNi4zNi0uMS4zMi0uMDUuMjQtLjAxaC4xNmwuMDYuMDFoOC4xNnYtLjgzSDYuMThsLS4wMS0yLjc1LS4wMi0uMzcuMDUtLjM0LjExLS4zMS4xNy0uMjguMjUtLjI2LjMxLS4yMy4zOC0uMi40NC0uMTguNTEtLjE1LjU4LS4xMi42NC0uMS43MS0uMDYuNzctLjA0Ljg0LS4wMiAxLjI3LjA1em0tNi4zIDEuOThsLS4yMy4zMy0uMDguNDEuMDguNDEuMjMuMzQuMzMuMjIuNDEuMDkuNDEtLjA5LjMzLS4yMi4yMy0uMzQuMDgtLjQxLS4wOC0uNDEtLjIzLS4zMy0uMzMtLjIyLS40MS0uMDktLjQxLjA5em0xMy4wOSAzLjk1bC4yOC4wNi4zMi4xMi4zNS4xOC4zNi4yNy4zNi4zNS4zNS40Ny4zMi41OS4yOC43My4yMS44OC4xNCAxLjA0LjA1IDEuMjMtLjA2IDEuMjMtLjE2IDEuMDQtLjI0Ljg2LS4zMi43MS0uMzYuNTctLjQuNDUtLjQyLjMzLS40Mi4yNC0uNC4xNi0uMzYuMDktLjMyLjA1LS4yNC4wMi0uMTYtLjAxaC04LjIydi44Mmg1Ljg0bC4wMSAyLjc2LjAyLjM2LS4wNS4zNC0uMTEuMzEtLjE3LjI5LS4yNS4yNS0uMzEuMjQtLjM4LjItLjQ0LjE3LS41MS4xNS0uNTguMTMtLjY0LjA5LS43MS4wNy0uNzcuMDQtLjg0LjAxLTEuMjctLjA0LTEuMDctLjE0LS45LS4yLS43My0uMjUtLjU5LS4zLS40NS0uMzMtLjM0LS4zNC0uMjUtLjM0LS4xNi0uMzMtLjEtLjMtLjA0LS4yNS0uMDItLjIuMDEtLjEzdi01LjM0bC4wNS0uNjQuMTMtLjU0LjIxLS40Ni4yNi0uMzguMy0uMzIuMzMtLjI0LjM1LS4yLjM1LS4xNC4zMy0uMS4zLS4wNi4yNi0uMDQuMjEtLjAyLjEzLS4wMWg1Ljg0bC42OS0uMDUuNTktLjE0LjUtLjIxLjQxLS4yOC4zMy0uMzIuMjctLjM1LjItLjM2LjE1LS4zNi4xLS4zNS4wNy0uMzIuMDQtLjI4LjAyLS4yMVY2LjA3aDIuMDlsLjE0LjAxem0tNi40NyAxNC4yNWwtLjIzLjMzLS4wOC40MS4wOC40MS4yMy4zMy4zMy4yMy40MS4wOC40MS0uMDguMzMtLjIzLjIzLS4zMy4wOC0uNDEtLjA4LS40MS0uMjMtLjMzLS4zMy0uMjMtLjQxLS4wOC0uNDEuMDh6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="42" font-weight="600">
+        Python
+      </text>
+    </g>
+  </svg>
+
+  <!-- Lit Badge -->
+  <svg
+    class="badge"
+    x="196.5"
+    y="46"
+    width="45"
+    height="22"
+    viewBox="0 0 45 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="lit-label">
+    <title id="lit-label">Lit</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#5B69DC" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGl0PC90aXRsZT48cGF0aCBkPSJNMi40IDkuNmw0LjggNC44VjI0bC00LjgtNC44VjkuNnptNC44LTQuOHY5LjZMMTIgOS42VjBMNy4yIDQuOHpNMTIgOS42djkuNmw0LjgtNC44VjQuOEwxMiA5LjZ6bTQuOCA0LjhWMjRsNC44LTQuOFY5LjZsLTQuOCA0Ljh6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="16" font-weight="600">
+        Lit
+      </text>
+    </g>
+  </svg>
+
+  <!-- React Badge -->
+  <svg
+    class="badge"
+    x="257.5"
+    y="46"
+    width="62"
+    height="22"
+    viewBox="0 0 62 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="react-label">
+    <title id="react-label">React</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#368094" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVhY3Q8L3RpdGxlPjxwYXRoIGQ9Ik0xNC4yMyAxMi4wMDRhMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzUgMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzYtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzUtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzYgMi4yMzZ6bTIuNjQ4LTEwLjY5Yy0xLjM0NiAwLTMuMTA3Ljk2LTQuODg4IDIuNjIyLTEuNzgtMS42NTMtMy41NDItMi42MDItNC44ODctMi42MDItLjQxIDAtLjc4My4wOTMtMS4xMDYuMjc4LTEuMzc1Ljc5My0xLjY4MyAzLjI2NC0uOTczIDYuMzY1QzEuOTggOC45MTcgMCAxMC40MiAwIDEyLjAwNGMwIDEuNTkgMS45OSAzLjA5NyA1LjA0MyA0LjAzLS43MDQgMy4xMTMtLjM5IDUuNTg4Ljk4OCA2LjM4LjMyLjE4Ny42OS4yNzUgMS4xMDIuMjc1IDEuMzQ1IDAgMy4xMDctLjk2IDQuODg4LTIuNjI0IDEuNzggMS42NTQgMy41NDIgMi42MDMgNC44ODcgMi42MDMuNDEgMCAuNzgzLS4wOSAxLjEwNi0uMjc1IDEuMzc0LS43OTIgMS42ODMtMy4yNjMuOTczLTYuMzY1QzIyLjAyIDE1LjA5NiAyNCAxMy41OSAyNCAxMi4wMDRjMC0xLjU5LTEuOTktMy4wOTctNS4wNDMtNC4wMzIuNzA0LTMuMTEuMzktNS41ODctLjk4OC02LjM4LS4zMTgtLjE4NC0uNjg4LS4yNzctMS4wOTItLjI3OHptLS4wMDUgMS4wOXYuMDA2Yy4yMjUgMCAuNDA2LjA0NC41NTguMTI3LjY2Ni4zODIuOTU1IDEuODM1LjczIDMuNzA0LS4wNTQuNDYtLjE0Mi45NDUtLjI1IDEuNDQtLjk2LS4yMzYtMi4wMDYtLjQxNy0zLjEwNy0uNTM0LS42Ni0uOTA1LTEuMzQ1LTEuNzI3LTIuMDM1LTIuNDQ3IDEuNTkyLTEuNDggMy4wODctMi4yOTIgNC4xMDUtMi4yOTV6bS05Ljc3LjAyYzEuMDEyIDAgMi41MTQuODA4IDQuMTEgMi4yOC0uNjg2LjcyLTEuMzcgMS41MzctMi4wMiAyLjQ0Mi0xLjEwNy4xMTctMi4xNTQuMjk4LTMuMTEzLjUzOC0uMTEyLS40OS0uMTk1LS45NjQtLjI1NC0xLjQyLS4yMy0xLjg2OC4wNTQtMy4zMi43MTQtMy43MDcuMTktLjA5LjQtLjEyNy41NjMtLjEzMnptNC44ODIgMy4wNWMuNDU1LjQ2OC45MS45OTIgMS4zNiAxLjU2NC0uNDQtLjAyLS44OS0uMDM0LTEuMzQ1LS4wMzQtLjQ2IDAtLjkxNS4wMS0xLjM2LjAzNC40NC0uNTcyLjg5NS0xLjA5NiAxLjM0NS0xLjU2NXpNMTIgOC4xYy43NCAwIDEuNDc3LjAzNCAyLjIwMi4wOTMuNDA2LjU4Mi44MDIgMS4yMDMgMS4xODMgMS44Ni4zNzIuNjQuNzEgMS4yOSAxLjAxOCAxLjk0Ni0uMzA4LjY1NS0uNjQ2IDEuMzEtMS4wMTMgMS45NS0uMzguNjYtLjc3MyAxLjI4OC0xLjE4IDEuODctLjcyOC4wNjMtMS40NjYuMDk4LTIuMjEuMDk4LS43NCAwLTEuNDc3LS4wMzUtMi4yMDItLjA5My0uNDA2LS41ODItLjgwMi0xLjIwNC0xLjE4My0xLjg2LS4zNzItLjY0LS43MS0xLjI5LTEuMDE4LTEuOTQ2LjMwMy0uNjU3LjY0Ni0xLjMxMyAxLjAxMy0xLjk1NC4zOC0uNjYuNzczLTEuMjg2IDEuMTgtMS44NjguNzI4LS4wNjQgMS40NjYtLjA5OCAyLjIxLS4wOTh6bS0zLjYzNS4yNTRjLS4yNC4zNzctLjQ4Ljc2My0uNzA0IDEuMTYtLjIyNS4zOS0uNDM1Ljc4Mi0uNjM1IDEuMTc0LS4yNjUtLjY1Ni0uNDktMS4zMS0uNjc2LTEuOTQ3LjY0LS4xNSAxLjMxNS0uMjgzIDIuMDE1LS4zODZ6bTcuMjYgMGMuNjk1LjEwMyAxLjM2NS4yMyAyLjAwNi4zODctLjE4LjYzMi0uNDA1IDEuMjgyLS42NiAxLjkzMy0uMi0uMzktLjQxLS43ODMtLjY0LTEuMTc0LS4yMjUtLjM5Mi0uNDY1LS43NzQtLjcwNS0xLjE0NnptMy4wNjMuNjc1Yy40ODQuMTUuOTQ0LjMxNyAxLjM3NS40OTggMS43MzIuNzQgMi44NTIgMS43MDggMi44NTIgMi40NzYtLjAwNS43NjgtMS4xMjUgMS43NC0yLjg1NyAyLjQ3NS0uNDIuMTgtLjg4LjM0Mi0xLjM1NS40OTMtLjI4LS45NTgtLjY0Ni0xLjk1Ni0xLjEtMi45OC40NS0xLjAxNy44MS0yLjAxIDEuMDg1LTIuOTY0em0tMTMuMzk1LjAwNGMuMjc4Ljk2LjY0NSAxLjk1NyAxLjEgMi45OC0uNDUgMS4wMTctLjgxMiAyLjAxLTEuMDg2IDIuOTY0LS40ODQtLjE1LS45NDQtLjMxOC0xLjM3LS41LTEuNzMyLS43MzctMi44NTItMS43MDYtMi44NTItMi40NzQgMC0uNzY4IDEuMTItMS43NDIgMi44NTItMi40NzYuNDItLjE4Ljg4LS4zNDIgMS4zNTYtLjQ5NHptMTEuNjc4IDQuMjhjLjI2NS42NTcuNDkgMS4zMTIuNjc2IDEuOTQ4LS42NC4xNTctMS4zMTYuMjktMi4wMTYuMzkuMjQtLjM3NS40OC0uNzYyLjcwNS0xLjE1OC4yMjUtLjM5LjQzNS0uNzg4LjYzNi0xLjE4em0tOS45NDUuMDJjLjIuMzkyLjQxLjc4My42NCAxLjE3NS4yMy4zOS40NjUuNzcyLjcwNSAxLjE0My0uNjk1LS4xMDItMS4zNjUtLjIzLTIuMDA2LS4zODYuMTgtLjYzLjQwNi0xLjI4Mi42Ni0xLjkzM3pNMTcuOTIgMTYuMzJjLjExMi40OTMuMi45NjguMjU0IDEuNDIzLjIzIDEuODY4LS4wNTQgMy4zMi0uNzE0IDMuNzA4LS4xNDcuMDktLjMzOC4xMjgtLjU2My4xMjgtMS4wMTIgMC0yLjUxNC0uODA3LTQuMTEtMi4yOC42ODYtLjcyIDEuMzctMS41MzYgMi4wMi0yLjQ0IDEuMTA3LS4xMTggMi4xNTQtLjMgMy4xMTMtLjU0em0tMTEuODMuMDFjLjk2LjIzNCAyLjAwNi40MTUgMy4xMDcuNTMyLjY2LjkwNSAxLjM0NSAxLjcyNyAyLjAzNSAyLjQ0Ni0xLjU5NSAxLjQ4My0zLjA5MiAyLjI5NS00LjExIDIuMjk1LS4yMi0uMDA1LS40MDYtLjA1LS41NTMtLjEzMi0uNjY2LS4zOC0uOTU1LTEuODM0LS43My0zLjcwMy4wNTQtLjQ2LjE0Mi0uOTQ0LjI1LTEuNDM4em00LjU2LjY0Yy40NC4wMi44OS4wMzQgMS4zNDUuMDM0LjQ2IDAgLjkxNS0uMDEgMS4zNi0uMDM0LS40NC41NzItLjg5NSAxLjA5NS0xLjM0NSAxLjU2NS0uNDU1LS40Ny0uOTEtLjk5My0xLjM2LTEuNTY1eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="33" font-weight="600">
+        React
+      </text>
+    </g>
+  </svg>
+
+  <!-- React Router Badge -->
+  <svg
+    class="badge"
+    x="335.5"
+    y="46"
+    width="106"
+    height="22"
+    viewBox="0 0 106 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="react-router-label">
+    <title id="react-router-label">React Router</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#CD4346" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVhY3QgUm91dGVyPC90aXRsZT48cGF0aCBkPSJNMTIuMTE4IDUuNDY2YTIuMzA2IDIuMzA2IDAgMDAtLjYyMy4wOGMtLjI3OC4wNjctLjcwMi4zMzItLjk1My41ODMtLjQxLjQyMy0uNDkuNjA5LS42NjIgMS40NjktLjA4LjQyMy40MSAxLjQzLjg0NyAxLjczNC40NS4zMTcgMS4wODUuNTAyIDIuMDY1LjYwOCAxLjQyOS4xNiAxLjg0LjYzNiAxLjg0IDIuMTk3IDAgMS4zNzctLjM4NSAxLjc0Ny0xLjk2IDEuOTA2LTEuNzA3LjE3Mi0yLjU4LjgzNC0yLjc2NSAyLjExNy0uMTA2Ljc4MS40MSAxLjc2IDEuMTI1IDIuMDkxIDEuNjI3Ljc2OCAzLjE1LS4xOTggMy40NjctMi4xOTYuMjExLTEuMjg0LjYyMi0xLjY0MiAxLjk5OC0xLjc0NyAxLjU4OC0uMTMzIDIuNDA5LS42NzUgMi43MTMtMS43ODcuMjc4LTEuMDItLjMwNC0yLjE1Ny0xLjI5Ny0yLjU1NC0uMjY0LS4xMDYtLjg3My0uMjM4LTEuMzUtLjI5MS0xLjQ5NS0uMTYtMS44NzktLjQyNC0yLjAzOC0xLjM5LS4yMjUtMS4zMzctLjMxNy0xLjU2Mi0uNzk0LTIuMDlhMi4xNzQgMi4xNzQgMCAwMC0xLjYxMy0uNzN6bS00Ljc4NSA0LjM2YTIuMTQ1IDIuMTQ1IDAgMDAtLjQ5Ny4wNDhjLTEuNDY5LjMxOC0yLjE3IDIuMDUxLTEuMzUgMy4yOTUgMS4xNzggMS43NzQgMy45NDQuOTUzIDMuOTctMS4xNzcuMDEyLTEuMTkzLS45OC0yLjE0My0yLjEyMy0yLjE2NnpNMi4wODkgMTQuMTlhMi4yMiAyLjIyIDAgMDAtLjQyNy4wNTJjLTIuMTU4LjQ3Ni0yLjIzNyAzLjYyNi0uMTA2IDQuMTgyLjUzLjE0NS41ODIuMTQ1IDEuMTExLjAxMyAxLjE5MS0uMzE4IDEuODY2LTEuNDU2IDEuNTQ5LTIuNjA3LS4yNzgtMS4wMi0xLjE0NC0xLjY2NC0yLjEyNy0xLjY0em0xOS44MjQuMDA4Yy0uMjMzLjAwMi0uNDc3LjA1OC0uNzg0LjE2Mi0xLjM5LjQ3Ny0xLjg2NiAyLjA5Mi0uOTggMy4zMzYuNTU3Ljc5NCAxLjk2IDEuMDU4IDIuODIuNTE2IDEuNDE2LS44NzQgMS4zNjMtMy4wNTctLjA5My0zLjc0Ni0uMzgtLjE4Ni0uNjYzLS4yNzEtLjk2My0uMjY4eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="77" font-weight="600">
+        React Router
+      </text>
+    </g>
+  </svg>
+
+  <!-- Redux Badge -->
+  <svg
+    class="badge"
+    x="14"
+    y="84"
+    width="65"
+    height="22"
+    viewBox="0 0 64 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="redux-label">
+    <title id="redux-label">Redux</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#8B58DC" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVkdXg8L3RpdGxlPjxwYXRoIGQ9Ik0xNi42MzQgMTYuNTA0Yy44Ny0uMDc1IDEuNTQzLS44NCAxLjUtMS43NTQtLjA0Ny0uOTE0LS43OTYtMS42NDgtMS43MDktMS42NDhoLS4wNjFhMS43MSAxLjcxIDAgMDAtMS42NDggMS43NjljLjAzLjQ3OS4yMjYuODY5LjQ5NCAxLjE1My0xLjA0OCAyLjAzOC0yLjYyMSAzLjUzNi01LjAwNSA0Ljc5NS0xLjYwMy44MzgtMy4yOTYgMS4xNTQtNC45NDQuOTMtMS4zNzgtLjE5NS0yLjQ1Ni0uODEtMy4xMTYtMS43OTktLjk4OC0xLjQ5OS0xLjA3OC0zLjExNi0uMjU1LTQuNzM0LjYtMS4xNyAxLjQ5OS0yLjAyMyAyLjA5OS0yLjQ0M2E5Ljk2IDkuOTYgMCAwMS0uNDItMS41NDNDLS44NjggMTQuNDA4LS40MTYgMTguNzUyLjkzMiAyMC44MDVjMS4wMDQgMS40OTggMy4wNTcgMi40NTYgNS4zMDQgMi40NTYuNiAwIDEuMjMtLjA0NCAxLjg0My0uMTk0IDMuODk3LS43NDkgNi44NDgtMy4wODYgOC41NDEtNi41MzJ6bTUuMzQ4LTMuNzQ2Yy0yLjMyLTIuNzI4LTUuNzM4LTQuMjI2LTkuNjM0LTQuMjI2aC0uNTFjLS4yNTMtLjU1NC0uODM3LS44OTktMS40OTgtLjg5OWgtLjA0NWMtLjk0MyAwLTEuNjc4LjgxLTEuNjQ3IDEuNzUzLjAzLjg5OC43OTQgMS42NDggMS43MDggMS42NDhoLjA3NGExLjY5IDEuNjkgMCAwMDEuNDk5LTEuMDQ5aC41NTVjMi4zMDkgMCA0LjQ5NS42NzQgNi40ODggMS45OTIgMS41MjcgMS4wMDUgMi42MjIgMi4zMjMgMy4yMzcgMy44OTcuNTM4IDEuMjg4LjUwOSAyLjU0Ny0uMDQ1IDMuNTk3LS44NTUgMS42NDctMi4yOTQgMi41MTctNC4xOTYgMi41MTctMS4xOTkgMC0yLjM2Ny0uMzc1LTIuOTY3LS42NDQtLjM2LjI5OC0uOTYuNzkzLTEuMzk0IDEuMDkzIDEuMzE4LjU5OCAyLjY1Mi45NDMgMy45NC45NDMgMi45MjIgMCA1LjA5NC0xLjY0NyA1LjkxOS0zLjIzNi44OTgtMS43OTguODI0LTQuODI0LTEuNDctNy40MTZ6TTYuNDkgMTcuMDQyYy4wMy44OTkuNzkzIDEuNjQ4IDEuNzA4IDEuNjQ4aC4wNmExLjY4OCAxLjY4OCAwIDAwMS42NDgtMS43NjhjMC0uOS0uNzc5LTEuNjQ3LTEuNjkzLTEuNjQ3aC0uMDZjLS4wNiAwLS4xNSAwLS4yMjYuMDI5LTEuMjQzLTIuMDk4LTEuNzY4LTQuMzQ3LTEuNTcyLTYuNzcyLjEyLTEuODI4LjcyLTMuNDE3IDEuNzk3LTQuNzM1LjktMS4xMjQgMi41OTMtMS42OCAzLjc0Ny0xLjcwOCAzLjIzNi0uMDYxIDQuNTg1IDMuOTcxIDQuNjg5IDUuNTc0bDEuNDk4LjQ1QzE3Ljc0MSAzLjE5NyAxNC42ODYuNjIgMTEuNzY0LjYyIDkuMDIuNjIgNi40OSAyLjYxMyA1LjQ3IDUuNTM1IDQuMDc3IDkuNDMgNC45OTEgMTMuMTc3IDYuNyAxNi4xNzRjLS4xNS4xOTUtLjI0LjUzOS0uMjEuODY4eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="36" font-weight="600">
+        Redux
+      </text>
+    </g>
+  </svg>
+
+  <!-- Bootstrap Badge -->
+  <svg
+    class="badge"
+    x="95"
+    y="84"
+    width="88"
+    height="22"
+    viewBox="0 0 88 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="bootstrap-label">
+    <title id="bootstrap-label">Bootstrap</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#8C5FCE" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Qm9vdHN0cmFwPC90aXRsZT48cGF0aCBkPSJNMTEuNzcgMTEuMjRIOS45NTZWOC4yMDJoMi4xNTJjMS4xNyAwIDEuODM0LjUyMiAxLjgzNCAxLjQ2NiAwIDEuMDA4LS43NzMgMS41NzItMi4xNzQgMS41NzJ6bS4zMjQgMS4yMDZIOS45NTd2My4zNDhoMi4yMzFjMS40NTkgMCAyLjIzMi0uNTg1IDIuMjMyLTEuNjg1cy0uNzk1LTEuNjYzLTIuMzI2LTEuNjYzek0yNCAxMS4zOXYxLjIxOGMtMS4xMjguMTA4LTEuODE3Ljk0NC0yLjIyNiAyLjI2OC0uNDA3IDEuMzE5LS40NjMgMi45MzctLjQyIDQuMTg2LjA0NSAxLjMtLjk2OCAyLjUtMi4zMzcgMi41SDQuOTg1Yy0xLjM3IDAtMi4zODMtMS4yLTIuMzM3LTIuNS4wNDMtMS4yNDktLjAxMy0yLjg2Ny0uNDItNC4xODYtLjQxLTEuMzI0LTEuMS0yLjE2LTIuMjI4LTIuMjY4VjExLjM5YzEuMTI4LS4xMDggMS44MTktLjk0NCAyLjIyNy0yLjI2OC40MDgtMS4zMTkuNDY0LTIuOTM3LjQyLTQuMTg2LS4wNDUtMS4zLjk2OC0yLjUgMi4zMzgtMi41aDE0LjAzMmMxLjM3IDAgMi4zODIgMS4yIDIuMzM3IDIuNS0uMDQzIDEuMjQ5LjAxMyAyLjg2Ny40MiA0LjE4Ni40MDkgMS4zMjQgMS4wOTggMi4xNiAyLjIyNiAyLjI2OHptLTcuOTI3IDIuODE3YzAtMS4zNTQtLjk1My0yLjMzMy0yLjM2OC0yLjQ4OHYtLjA1N2MxLjA0LS4xNjkgMS44NTYtMS4xMzUgMS44NTYtMi4yMTMgMC0xLjUzNy0xLjIxMy0yLjUzOC0zLjA2Mi0yLjUzOGgtNC4xNnYxMC4xNzJoNC4xODFjMi4yMTggMCAzLjU1My0xLjA4NiAzLjU1My0yLjg3NnoiLz48L3N2Zz4=" />
+      <text class="badge__text" x="23" y="15" textLength="59" font-weight="600">
+        Bootstrap
+      </text>
+    </g>
+  </svg>
+
+  <!-- Figma Badge -->
+  <svg
+    class="badge"
+    x="199"
+    y="84"
+    width="65"
+    height="22"
+    viewBox="0 0 64 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="figma-label">
+    <title id="figma-label">Figma</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#D54419" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlnbWE8L3RpdGxlPjxwYXRoIGQ9Ik0xNS44NTIgOC45ODFoLTQuNTg4VjBoNC41ODhjMi40NzYgMCA0LjQ5IDIuMDE0IDQuNDkgNC40OXMtMi4wMTQgNC40OTEtNC40OSA0LjQ5MXpNMTIuNzM1IDcuNTFoMy4xMTdjMS42NjUgMCAzLjAxOS0xLjM1NSAzLjAxOS0zLjAxOXMtMS4zNTUtMy4wMTktMy4wMTktMy4wMTloLTMuMTE3VjcuNTF6bTAgMS40NzFIOC4xNDhjLTIuNDc2IDAtNC40OS0yLjAxNC00LjQ5LTQuNDlTNS42NzIgMCA4LjE0OCAwaDQuNTg4djguOTgxem0tNC41ODctNy41MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NCAzLjAyIDMuMDE5IDMuMDJoMy4xMTdWMS40NzFIOC4xNDh6bTQuNTg3IDE1LjAxOUg4LjE0OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY4Ljk4ek04LjE0OCA4Ljk4MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWgzLjExN1Y4Ljk4MUg4LjE0OHpNOC4xNzIgMjRjLTIuNDg5IDAtNC41MTUtMi4wMTQtNC41MTUtNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY0LjQ0MWMwIDIuNTAzLTIuMDQ3IDQuNTM5LTQuNTYzIDQuNTM5em0tLjAyNC03LjUxYTMuMDIzIDMuMDIzIDAgMCAwLTMuMDE5IDMuMDE5YzAgMS42NjUgMS4zNjUgMy4wMTkgMy4wNDQgMy4wMTkgMS43MDUgMCAzLjA5My0xLjM3NiAzLjA5My0zLjA2OHYtMi45N0g4LjE0OHptNy43MDQgMGgtLjA5OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWguMDk4YzIuNDc2IDAgNC40OSAyLjAxNCA0LjQ5IDQuNDlzLTIuMDE0IDQuNDktNC40OSA0LjQ5em0tLjA5Ny03LjUwOWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWguMDk4YzEuNjY1IDAgMy4wMTktMS4zNTUgMy4wMTktMy4wMTlzLTEuMzU1LTMuMDE5LTMuMDE5LTMuMDE5aC0uMDk4eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="35" font-weight="600">
+        Figma
+      </text>
+    </g>
+  </svg>
+
+  <!-- Express Badge -->
+  <svg
+    class="badge"
+    x="279"
+    y="84"
+    width="74"
+    height="22"
+    viewBox="0 0 74 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="express-label">
+    <title id="express-label">Express</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#747474" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RXhwcmVzczwvdGl0bGU+PHBhdGggZD0iTTI0IDE4LjU4OGExLjUyOSAxLjUyOSAwIDAxLTEuODk1LS43MmwtMy40NS00Ljc3MS0uNS0uNjY3LTQuMDAzIDUuNDQ0YTEuNDY2IDEuNDY2IDAgMDEtMS44MDIuNzA4bDUuMTU4LTYuOTItNC43OTgtNi4yNTFhMS41OTUgMS41OTUgMCAwMTEuOS42NjZsMy41NzYgNC44MyAzLjU5Ni00LjgxYTEuNDM1IDEuNDM1IDAgMDExLjc4OC0uNjY4TDIxLjcwOCA3LjlsLTIuNTIyIDMuMjgzYS42NjYuNjY2IDAgMDAwIC45OTRsNC44MDQgNi40MTJ6TS4wMDIgMTEuNTc2bC40Mi0yLjA3NWMxLjE1NC00LjEwMyA1Ljg1OC01LjgxIDkuMDk0LTMuMjcgMS44OTUgMS40ODkgMi4zNjggMy41OTcgMi4yNzUgNS45NzNIMS4xMTZDLjk0MyAxNi40NDcgNC4wMDUgMTkuMDA5IDcuOTIgMTcuN2E0LjA3OCA0LjA3OCAwIDAwMi41ODItMi44NzZjLjIwNy0uNjY2LjU0OC0uNzggMS4xNzQtLjU4OGE1LjQxNyA1LjQxNyAwIDAxLTIuNTg5IDMuOTU3IDYuMjcyIDYuMjcyIDAgMDEtNy4zMDYtLjkzMyA2LjU3NSA2LjU3NSAwIDAxLTEuNjQtMy44NThjMC0uMjM1LS4wOC0uNDU1LS4xMzQtLjY2NkE4OC4zMyA4OC4zMyAwIDAxMCAxMS41Nzd6bTEuMTI3LS4yODZoOS42NTRjLS4wNi0zLjA3Ni0yLjAwMS01LjI1OC00LjU5LTUuMjc4LTIuODgyLS4wNC00Ljk0NCAyLjA5NC01LjA3MSA1LjI2NHoiLz48L3N2Zz4=" />
+      <text class="badge__text" x="23" y="15" textLength="45" font-weight="600">
+        Express
+      </text>
+    </g>
+  </svg>
+
+  <!-- Firebase Badge -->
+  <svg
+    class="badge"
+    x="369"
+    y="84"
+    width="79"
+    height="22"
+    viewBox="0 0 79 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="firebase-label">
+    <title id="firebase-label">Firebase</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#AE6100" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlyZWJhc2U8L3RpdGxlPjxwYXRoIGQ9Ik0xOS40NTUgOC4zNjljLS41MzgtLjc0OC0xLjc3OC0yLjI4NS0zLjY4MS00LjU2OS0uODI2LS45OTEtMS41MzUtMS44MzItMS44ODQtMi4yNDVhMTQ2IDE0NiAwIDAgMC0uNDg4LS41NzZsLS4yMDctLjI0NS0uMTEzLS4xMzMtLjAyMi0uMDMyLS4wMS0uMDA1TDEyLjU3IDBsLS42MDkuNDg4Yy0xLjU1NSAxLjI0Ni0yLjgyOCAyLjg1MS0zLjY4MSA0LjY0LS41MjMgMS4wNjQtLjg2NCAyLjEwNS0xLjA0MyAzLjE3Ni0uMDQ3LjI0MS0uMDg4LjQ4OS0uMTIxLjczOC0uMjA5LS4wMTctLjQyMS0uMDI4LS42MzItLjAzMy0uMDE4LS4wMDEtLjAzNS0uMDAyLS4wNTktLjAwM2E3LjQ2IDcuNDYgMCAwIDAtMi4yOC4yNzRsLS4zMTcuMDg5LS4xNjMuMjg2Yy0uNzY1IDEuMzQyLTEuMTk4IDIuODY5LTEuMjUyIDQuNDE2LS4wNyAyLjAxLjQ3NyAzLjk1NCAxLjU4MyA1LjYyNSAxLjA4MiAxLjYzMyAyLjYxIDIuODgyIDQuNDIgMy42MTFsLjIzNi4wOTUuMDcxLjAyNS4wMDMtLjAwMWE5LjU5IDkuNTkgMCAwIDAgMi45NDEuNTY4cS4xNzEuMDA2LjM0Mi4wMDZjMS4yNzMgMCAyLjUxMy0uMjQ5IDMuNjktLjc0MmwuMDA4LjAwNC4zMTMtLjE0NWE5LjYzIDkuNjMgMCAwIDAgMy45MjctMy4zMzVjMS4wMS0xLjQ5IDEuNTc3LTMuMjM0IDEuNjQxLTUuMDQyLjA3NS0yLjE2MS0uNjQzLTQuMzA0LTIuMTMzLTYuMzcxbS03LjA4MyA2LjY5NWMuMzI4IDEuMjQ0LjI2NCAyLjQ0LS4xOTEgMy41NTgtMS4xMzUtMS4xMi0xLjk2Ny0yLjM1Mi0yLjQ3NS0zLjY2NS0uNTQzLTEuNDA0LS44Ny0yLjc0LS45NzQtMy45NzUuNDguMTU3LjkyMi4zNjYgMS4zMTUuNjIyIDEuMTMyLjczNyAxLjkxNCAxLjkwMiAyLjMyNSAzLjQ2MXptLjIwNyA2LjAyMmMuNDgyLjM2OC45OS43MTIgMS41MTMgMS4wMjgtLjc3MS4yMS0xLjU2NS4zMDItMi4zNjkuMjczYTggOCAwIDAgMS0uMzczLS4wMjJjLjQ1OC0uMzk0Ljg2OS0uODIzIDEuMjI4LTEuMjc5em0xLjM0Ny02LjQzMWMtLjUxNi0xLjk1Ny0xLjUyNy0zLjQzNy0zLjAwMi00LjM5OC0uNjQ3LS40MjEtMS4zODUtLjc0MS0yLjE5NC0uOTUuMDExLS4xMzQuMDI2LS4yNjguMDQzLS40LjAxNC0uMTEzLjAzLS4yMTYuMDQ2LS4zMTMuMTMzLS42ODkuMzMyLTEuMzcuNTg5LTIuMDI1LjA5OS0uMjUuMjA2LS40OTkuMzIxLS43NGwuMDA0LS4wMDhjLjE3Ny0uMzU4LjM3Ni0uNzE5LjYxLTEuMTA1bC4wOTItLjE1Mi0uMDAzLS4wMDFjLjU0NC0uODUxIDEuMTk3LTEuNjI3IDEuOTQyLTIuMzExbC4yODguMzQxYy42NzIuNzk2IDEuMzA0IDEuNTQ4IDEuODc4IDIuMjM3IDEuMjkxIDEuNTQ5IDIuOTY2IDMuNTgzIDMuNjEyIDQuNDggMS4yNzcgMS43NzEgMS44OTMgMy41NzkgMS44MyA1LjM3NS0uMDQ5IDEuMzk1LS40NjEgMi43NTUtMS4xOTUgMy45MzMtLjY5NCAxLjExNi0xLjY2MSAyLjA1LTIuOCAyLjcwOC0uNjM2LS4zMTgtMS41NTktLjgzOS0yLjUzOS0xLjU5OS43OS0xLjU3NS45NTItMy4yOC40NzktNS4wNzJ6bS0yLjU3NSA1LjM5N2MtLjcyNS45MzktMS41ODcgMS41NS0yLjA5IDEuODU2LS4wODEtLjAyOS0uMTYzLS4wNi0uMjQzLS4wOTNsLS4wNjUtLjAyNmMtMS40OS0uNjE2LTIuNzQ3LTEuNjU2LTMuNjM1LTMuMDEtLjkwNy0xLjM4NC0xLjM1Ni0yLjk5My0xLjI5OC00LjY1My4wNDEtMS4xOS4zMzgtMi4zMjcuODgyLTMuMzc5LjMxNi0uMDcuNjM4LS4xMTQuOTYtLjEzMWwuMDg0LS4wMDJjLjE2Mi0uMDAzLjMyNC0uMDAzLjQ3OCAwIC4yMjcuMDExLjQ1NC4wMzUuNjc3LjA3LjA3MyAxLjUxMy40NDUgMy4xNDUgMS4xMDUgNC44NTIuNjM3IDEuNjQ0IDEuNjk0IDMuMTYyIDMuMTQ0IDQuNTE1eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="50" font-weight="600">
+        Firebase
+      </text>
+    </g>
+  </svg>
+
+  <!-- Vercel Badge -->
+  <svg
+    class="badge"
+    x="23"
+    y="122"
+    width="66"
+    height="22"
+    viewBox="0 0 66 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="vercel-label">
+    <title id="vercel-label">Vercel</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#747474" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmVyY2VsPC90aXRsZT48cGF0aCBkPSJtMTIgMS42MDggMTIgMjAuNzg0SDBaIi8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="37" font-weight="600">
+        Vercel
+      </text>
+    </g>
+  </svg>
+
+  <!-- MySQL Badge -->
+  <svg
+    class="badge"
+    x="105"
+    y="122"
+    width="68"
+    height="22"
+    viewBox="0 0 68 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="mysql-label">
+    <title id="mysql-label">MySQL</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#4479A1" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TXlTUUw8L3RpdGxlPjxwYXRoIGQ9Ik0xNi40MDUgNS41MDFjLS4xMTUgMC0uMTkzLjAxNC0uMjc0LjAzM3YuMDEzaC4wMTRjLjA1NC4xMDQuMTQ2LjE4LjIxNC4yNzMuMDU0LjEwNy4xLjIxNC4xNTQuMzJsLjAxNC0uMDE1Yy4wOTQtLjA2Ni4xNC0uMTcyLjE0LS4zMzMtLjA0LS4wNDctLjA0Ni0uMDk0LS4wOC0uMTQtLjA0LS4wNjctLjEyNi0uMS0uMTgtLjE1M3pNNS43NyAxOC42OTVoLS45MjdhNTAuODU0IDUwLjg1NCAwIDAwLS4yNy00LjQxaC0uMDA4bC0xLjQxIDQuNDFIMi40NWwtMS40LTQuNDFoLS4wMWE3Mi44OTIgNzIuODkyIDAgMDAtLjE5NSA0LjQxSDBjLjA1NS0xLjk2Ni4xOTItMy44MS40MS01LjUzaDEuMTVsMS4zMzUgNC4wNjRoLjAwOGwxLjM0Ny00LjA2NGgxLjA5NWMuMjQyIDIuMDE1LjM4NCAzLjg2LjQyOCA1LjUzem00LjAxNy00LjA4Yy0uMzc4IDIuMDQ1LS44NzYgMy41MzMtMS40OTIgNC40Ni0uNDgyLjcxNi0xLjAxIDEuMDczLTEuNTgzIDEuMDczLS4xNTMgMC0uMzQtLjA0Ni0uNTY2LS4xMzh2LS40OTRjLjExLjAxNy4yNC4wMjYuMzg2LjAyNi4yNjggMCAuNDgzLS4wNzUuNjQ3LS4yMjIuMTk3LS4xOC4yOTUtLjM4Mi4yOTUtLjYwNSAwLS4xNTUtLjA3Ny0uNDctLjIzLS45NDRMNi4yMyAxNC42MTVoLjkxbC43MjcgMi4zNmMuMTY0LjUzNi4yMzMuOTEuMjA1IDEuMTIzLjQtMS4wNjQuNjc4LTIuMjI3LjgzNS0zLjQ4M3ptMTIuMzI1IDQuMDhoLTIuNjN2LTUuNTNoLjg4NXY0Ljg1aDEuNzQ1em0tMy4zMi4xMzVsLTEuMDE2LS41Yy4wOS0uMDc2LjE3Ny0uMTU4LjI1NS0uMjUuNDMzLS41MDYuNjQ4LTEuMjU4LjY0OC0yLjI1MyAwLTEuODMtLjcxOC0yLjc0Ni0yLjE1NS0yLjc0Ni0uNzA0IDAtMS4yNTQuMjMyLTEuNjUuNjk3LS40My41MDgtLjY0NiAxLjI1Ni0uNjQ2IDIuMjQ1IDAgLjk3Mi4xOSAxLjY4Ni41NzQgMi4xNC4zNS40MS44NzcuNjE1IDEuNTgzLjYxNS4yNjQgMCAuNTA2LS4wMzMuNzI1LS4wOThsMS4zMjUuNzcyLjM2LS42MjJ6TTE1LjUgMTcuNTg4Yy0uMjI1LS4zNi0uMzM3LS45NC0uMzM3LTEuNzM2IDAtMS4zOTMuNDI0LTIuMDkgMS4yNy0yLjA5LjQ0MyAwIC43Ny4xNjcuOTc3LjUuMjI0LjM2Mi4zMzYuOTM2LjMzNiAxLjcyMyAwIDEuNDA0LS40MjQgMi4xMDgtMS4yNyAyLjEwOC0uNDQ1IDAtLjc3LS4xNjctLjk3OC0uNXptLTEuNjU4LS40MjVjMCAuNDctLjE3Mi44NTYtLjUxNiAxLjE1Ni0uMzQ0LjMtLjgwMy40NS0xLjM4NC40NS0uNTQzIDAtMS4wNjQtLjE3Mi0xLjU3My0uNTE1bC4yMzctLjQ3NmMuNDM4LjIyLjgzMy4zMjggMS4xOS4zMjguMzMyIDAgLjU5My0uMDczLjc4My0uMjJhLjc1NC43NTQgMCAwMC4zLS42MTVjMC0uMzMtLjIzLS42MS0uNjQ4LS44NDUtLjM4OC0uMjEzLTEuMTYzLS42NTctMS4xNjMtLjY1Ny0uNDIyLS4zMDctLjYzMi0uNjM2LS42MzItMS4xNzcgMC0uNDUuMTU3LS44MS40Ny0xLjA4NS4zMTUtLjI3OC43Mi0uNDE1IDEuMjItLjQxNS41MTIgMCAuOTguMTM2IDEuNC40MWwtLjIxMy40NzZhMi43MjYgMi43MjYgMCAwMC0xLjA2NC0uMjNjLS4yODMgMC0uNTAyLjA2OC0uNjU0LjIwNmEuNjg1LjY4NSAwIDAwLS4yNDguNTI0YzAgLjMyOC4yMzQuNjEuNjY2Ljg1LjM5My4yMTUgMS4xODcuNjcgMS4xODcuNjcuNDMzLjMwNS42NDguNjMuNjQ4IDEuMTY4em05LjM4Mi01Ljg1MmMtLjUzNS0uMDE0LS45NS4wNC0xLjI5Ny4xODgtLjEuMDQtLjI2LjA0LS4yNzQuMTY3LjA1NS4wNTMuMDYzLjE0LjExLjIxNC4wOC4xMzQuMjE4LjMxMy4zNDYuNDA3LjE0LjExLjI4LjIxNi40MjcuMzEuMjYuMTYuNTU1LjI1NS44MS40MTYuMTQ1LjA5NC4yOTMuMjEzLjQ0LjMxMy4wNzMuMDUuMTIuMTQuMjE0LjE3MnYtLjAyYy0uMDQ2LS4wNi0uMDYtLjE0Ny0uMTA1LS4yMTQtLjA2Ny0uMDY3LS4xMzQtLjEyNy0uMi0uMTkzYTMuMjIzIDMuMjIzIDAgMDAtLjY5NS0uNjc1Yy0uMjE0LS4xNDYtLjY4Mi0uMzUtLjc3LS41OTVsLS4wMTMtLjAxNGMuMTQ2LS4wMTMuMzItLjA2Ni40Ni0uMTA2LjIyNy0uMDYuNDM1LS4wNDcuNjctLjEwNi4xMDYtLjAyNy4yMTMtLjA2LjMyLS4wOTR2LS4wNmMtLjEyLS4xMi0uMjEtLjI4My0uMzM0LS4zOTVhOC44NjcgOC44NjcgMCAwMC0xLjEwNC0uODIzYy0uMjEtLjEzNC0uNDc2LS4yMi0uNjk3LS4zMzQtLjA4LS4wNC0uMjE0LS4wNi0uMjYtLjEyNy0uMTItLjE0Ni0uMTktLjM0LS4yNzUtLjUxNGExNy42OSAxNy42OSAwIDAxLS41NDctMS4xNjNjLS4xMi0uMjYyLS4xOTMtLjUyMy0uMzQtLjc2My0uNjktMS4xMzctMS40MzctMS44MjYtMi41ODYtMi41LS4yNDctLjE0LS41NDMtLjItLjg1Ni0uMjc0LS4xNjctLjAwOC0uMzM0LS4wMi0uNS0uMDI3LS4xMS0uMDQ3LS4yMTYtLjE3NC0uMzEtLjIzNS0uMzgtLjI0LTEuMzY0LS43Ni0xLjY0NC0uMDcyLS4xOC40MzQuMjY3Ljg2Mi40MjIgMS4wODIuMTE1LjE1My4yNi4zMjguMzQuNS4wNDcuMTE2LjA2LjIzNS4xMDcuMzU2LjEwNi4yOTQuMjA3LjYyMi4zNDcuODk3LjA3My4xNC4xNTMuMjg3LjI0Ny40MTMuMDU0LjA3My4xNDYuMTA3LjE2Ny4yMjctLjA5NC4xMzYtLjEuMzM0LS4xNTQuNS0uMjQuNzU3LS4xNDYgMS42OTMuMTk0IDIuMjUuMTA3LjE2Ni4zNjIuNTM0LjcwMy4zOTMuMy0uMTIuMjM0LS41LjMyLS44MzUuMDItLjA4LjAwNy0uMTMzLjA0OC0uMTg3di4wMTVjLjA5NC4xODguMTg4LjM2Ny4yNzQuNTU1LjIwNi4zMjguNTY2LjY2OC44NjcuODk1LjE2LjEyLjI4Ny4zMjguNDg3LjQwMnYtLjAyaC0uMDE1Yy0uMDQzLS4wNTgtLjEtLjA4Ni0uMTU0LS4xMzNhMy40NDUgMy40NDUgMCAwMS0uMzUtLjQgOC43NiA4Ljc2IDAgMDEtLjc0Ny0xLjIxOGMtLjExLS4yMS0uMjAyLS40MzYtLjI5LS42NDMtLjA0LS4wOC0uMDQtLjItLjEwNy0uMjQtLjEuMTQ2LS4yNDcuMjczLS4zMi40NTMtLjEyNy4yODgtLjE0LjY0Mi0uMTg4IDEuMDEtLjAyNy4wMDctLjAxNCAwLS4wMjcuMDE0LS4yMTQtLjA1Mi0uMjg3LS4yNzQtLjM2Ny0uNDYtLjItLjQ3NS0uMjMzLTEuMjM4LS4wNi0xLjc4NS4wNDctLjE0LjI0Ny0uNTgyLjE2Ny0uNzE2LS4wNDItLjEyNy0uMTc0LS4yLS4yNDctLjMwM2EyLjQ3OCAyLjQ3OCAwIDAxLS4yNC0uNDI3Yy0uMTYtLjM3NC0uMjQtLjc4OC0uNDE0LTEuMTYyLS4wOC0uMTczLS4yMi0uMzU0LS4zMzQtLjUxMy0uMTI3LS4xOC0uMjY3LS4zMDctLjM2OC0uNTItLjAzMy0uMDczLS4wOC0uMTk0LS4wMjctLjI3NC4wMTQtLjA1NC4wNDItLjA3NS4wOTQtLjA5LjA4OC0uMDcyLjMzNS4wMjIuNDIyLjA2Mi4yNDcuMS40NTUuMTk0LjY2Mi4zMzQuMDk0LjA2Ni4xOTUuMTkzLjMxNS4yMjZoLjE0Yy4yMTQuMDQ3LjQ1NS4wMTQuNjU1LjA3My4zNTUuMTE0LjY3NS4yOC45NjIuNDZhNS45NTMgNS45NTMgMCAwMTIuMDg1IDIuMjg2Yy4wOC4xNTQuMTE1LjI5NS4xODguNDU1LjE0LjMzLjMxMy42NjMuNDU1Ljk4Mi4xNC4zMTUuMjc1LjYzNi40NzYuODk3LjEuMTQuNTAyLjIxMy42ODIuMjg2LjEzMy4wNi4zNC4xMTUuNDYuMTg4LjIzLjE0LjQ1NC4zLjY3LjQ1NC4xMS4wNzYuNDQzLjI0My40NjMuMzc4eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="39" font-weight="600">
+        MySQL
+      </text>
+    </g>
+  </svg>
+
+  <!-- MongoDB Badge -->
+  <svg
+    class="badge"
+    x="189"
+    y="122"
+    width="85"
+    height="22"
+    viewBox="0 0 85 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="mongodb-label">
+    <title id="mongodb-label">MongoDB</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#3A863A" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TW9uZ29EQjwvdGl0bGU+PHBhdGggZD0iTTE3LjE5MyA5LjU1NWMtMS4yNjQtNS41OC00LjI1Mi03LjQxNC00LjU3My04LjExNS0uMjgtLjM5NC0uNTMtLjk1NC0uNzM1LTEuNDQtLjAzNi40OTUtLjA1NS42ODUtLjUyMyAxLjE4NC0uNzIzLjU2Ni00LjQzOCAzLjY4Mi00Ljc0IDEwLjAyLS4yODIgNS45MTIgNC4yNyA5LjQzNSA0Ljg4OCA5Ljg4NGwuMDcuMDVBNzMuNDkgNzMuNDkgMCAwMTExLjkxIDI0aC40ODFjLjExNC0xLjAzMi4yODQtMi4wNTYuNTEtMy4wNy40MTctLjI5Ni42MDQtLjQ2My44NS0uNjkzYTExLjM0MiAxMS4zNDIgMCAwMDMuNjM5LTguNDY0Yy4wMS0uODE0LS4xMDMtMS42NjItLjE5Ny0yLjIxOHptLTUuMzM2IDguMTk1czAtOC4yOTEuMjc1LTguMjljLjIxMyAwIC40OSAxMC42OTUuNDkgMTAuNjk1LS4zODEtLjA0NS0uNzY1LTEuNzYtLjc2NS0yLjQwNXoiLz48L3N2Zz4=" />
+      <text class="badge__text" x="23" y="15" textLength="56" font-weight="600">
+        MongoDB
+      </text>
+    </g>
+  </svg>
+
+  <!-- Jest Badge -->
+  <svg
+    class="badge"
+    x="290"
+    y="122"
+    width="51"
+    height="22"
+    viewBox="0 0 51 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="jest-label">
+    <title id="jest-label">Jest</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#E5192E" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SmVzdDwvdGl0bGU+PHBhdGggZD0iTTIyLjI1MSAxMS44MmEzLjExNyAzLjExNyAwIDAgMC0yLjMyOC0zLjAxTDIyLjkxMSAwSDguMTA0TDExLjEgOC44MzhhMy4xMTYgMy4xMTYgMCAwIDAtMi4yNDQgMi45ODhjMCAxLjA0My41MiAxLjk2NyAxLjMxMyAyLjUzNmE4LjI3OSA4LjI3OSAwIDAgMS0xLjA4NCAxLjI0NCA4LjE0IDguMTQgMCAwIDEtMi41NSAxLjY0N2MtLjgzNC0uNTYzLTEuMTk1LTEuNTU2LS44NjktMi40NDZhMy4xMSAzLjExIDAgMCAwLS45MS02LjA4IDMuMTE3IDMuMTE3IDAgMCAwLTMuMTEzIDMuMTEzYzAgLjg0OC4zNDcgMS42MjYuOTAzIDIuMTgyLS4wNDguMDk3LS4wOTcuMTk1LS4xNDYuMjk5LS40NjUuOTU5LS45OTMgMi4wNDMtMS4xOTUgMy4yNTktLjQwMyAyLjQzMi4yNTcgNC4zODQgMS44NDkgNS40ODlBNS4wOTMgNS4wOTMgMCAwIDAgNS45OTkgMjRjMS44MjcgMCAzLjY4Mi0uOTE3IDUuNDc1LTEuODA3IDEuMjc5LS42MzIgMi41OTktMS4yOTIgMy44OTgtMS42MTIuNDgtLjExOC45OC0uMTg3IDEuNTA4LS4yNjQgMS4wNy0uMTUzIDIuMTc1LS4zMTIgMy4xNjgtLjg5YTQuNDgyIDQuNDgyIDAgMCAwIDIuMTgyLTMuMDkxYy4xNzQtLjk5NCAwLTEuOTk0LS40NDQtMi44Ny4yOTgtLjQ4LjQ2NS0xLjA0Mi40NjUtMS42NDd6bS0xLjM1NSAwYzAgLjk2NS0uNzg1IDEuNzUtMS43NSAxLjc1YTEuNzUzIDEuNzUzIDAgMCAxLTEuMDg1LTMuMTI2bC4wMDctLjAwN2MuMDU2LS4wNDIuMTE4LS4wODQuMTgtLjEyNSAwIDAgLjAwOCAwIC4wMDgtLjAwNy4wMjgtLjAxNC4wNTUtLjAzNS4wODMtLjA1LjAwNyAwIC4wMTQtLjAwNi4wMjEtLjAwNi4wMjgtLjAxNC4wNjMtLjAyOC4wOTctLjA0Mi4wMzUtLjAxNC4wNy0uMDI3LjA5OC0uMDQxLjAwNyAwIC4wMTMtLjAwNy4wMi0uMDA3LjAyOC0uMDA3LjA1Ni0uMDIxLjA4NC0uMDI4LjAwNyAwIC4wMi0uMDA3LjAyOC0uMDA3LjAzNC0uMDA3LjA2Mi0uMDE0LjA5Ny0uMDJoLjAwN2wuMTA0LS4wMjJjLjAwNyAwIC4wMiAwIC4wMjgtLjAwNy4wMjggMCAuMDU1LS4wMDcuMDgzLS4wMDdoLjAzNWMuMDM1IDAgLjA3LS4wMDcuMTExLS4wMDdoLjA5Yy4wMjggMCAuMDUgMCAuMDc3LjAwN2guMDE0Yy4wNTUuMDA3LjExMS4wMTQuMTY3LjAyOGExLjc2NiAxLjc2NiAwIDAgMSAxLjM5NiAxLjcyM3pNMTAuMDQzIDEuMzloMTAuOTNsLTIuNTA5IDcuNGMtLjEwNC4wMi0uMjA4LjA1NS0uMzEyLjA5bC0yLjY0LTUuMzg1LTIuNjQ4IDUuMzVjLS4xMDQtLjAzNC0uMjE2LS4wNTUtLjMyNy0uMDc2bC0yLjQ5NC03LjM4em00Ljk2OCA5LjgyNWEzLjA4MyAzLjA4MyAwIDAgMC0uOTM4LTEuNjY4bDEuNDM4LTIuOTA0IDEuNDUyIDIuOTY3Yy0uNDMuNDMtLjc0My45OC0uODY4IDEuNjA1SDE1LjAxem0tMy40ODEtMS4wOThjLjAzNC0uMDA3LjA2Mi0uMDE0LjA5Ny0uMDJoLjAyYy4wMjktLjAwOC4wNTYtLjAwOC4wODQtLjAxNWguMDI4Yy4wMjggMCAuMDQ5LS4wMDcuMDc2LS4wMDdoLjI3MWMuMDI4IDAgLjA0OS4wMDcuMDcuMDA3LjAxNCAwIC4wMiAwIC4wMzUuMDA3LjAyNy4wMDcuMDQ4LjAwNy4wNzYuMDE0LjAwNyAwIC4wMTQgMCAuMDI4LjAwN2wuMDk3LjAyaC4wMDdjLjAyOC4wMDguMDU2LjAxNS4wODMuMDI5LjAwNyAwIC4wMTQuMDA3LjAyOC4wMDcuMDIxLjAwNy4wNDkuMDE0LjA3LjAyNy4wMDcgMCAuMDE0LjAwNy4wMi4wMDcuMDI4LjAxNC4wNTYuMDIxLjA4NC4wMzVoLjAwN2EuMzc0LjM3NCAwIDAgMSAuMDkuMDQ5aC4wMDdjLjAyOC4wMTQuMDU2LjAzNC4wODQuMDQ4LjAwNyAwIC4wMDcuMDA3LjAxMy4wMDcuMDI4LjAxNC4wNS4wMzUuMDc3LjA0OWwuMDA3LjAwN2MuMDgzLjA2Mi4xNi4xMzIuMjM2LjIwMWwuMDA3LjAwN2ExLjc0NyAxLjc0NyAwIDAgMSAuNDggMS4yMDkgMS43NTIgMS43NTIgMCAwIDEtMy41MDIgMCAxLjc0MiAxLjc0MiAwIDAgMSAxLjMyLTEuNjk1em0tNi44MzgtLjA0OWMuOTY2IDAgMS43NTEuNzg2IDEuNzUxIDEuNzUxcy0uNzg1IDEuNzUxLTEuNzUgMS43NTEtMS43NTItLjc4NS0xLjc1Mi0xLjc1Ljc4Ni0xLjc1MiAxLjc1MS0xLjc1MnptMTYuMTYzIDYuMDI1YTMuMDcgMy4wNyAwIDAgMS0xLjUwOCAyLjEzM2MtLjc1OC40MzgtMS42ODkuNTc3LTIuNjY5LjcxNmExNy4yOSAxNy4yOSAwIDAgMC0xLjY0LjI5MWMtMS40NDUuMzU1LTIuODM0IDEuMDUtNC4xODIgMS43MTctMS43MjQuODU0LTMuMzUgMS42Ni00Ljg1NyAxLjY2YTMuNjQ1IDMuNjQ1IDAgMCAxLTIuMTU0LS42ODhjLTEuNTI5LTEuMDU2LTEuNDUzLTMuMDM2LTEuMjcyLTQuMTIuMTY3LTEuMDE1LjYzMi0xLjk2NiAxLjA3Ny0yLjg3Ny4wMjgtLjA1NS4wNDktLjEwNC4wNzctLjE2LjE1Mi4wNTYuMzEyLjA5OC40NzkuMTI2LS4yNjQgMS40NzMuNDg2IDIuOTk0IDEuOTQ2IDMuNzQ1bC4yNjQuMTM5LjI4NC0uMTA0YzEuMjE2LS40MzEgMi4zNDItMS4xMzMgMy4zMzYtMi4wNzFhOS4zMzQgOS4zMzQgMCAwIDAgMS40NDUtMS43MTZjLjE2LjAyNy4zMi4wMzQuNDguMDM0YTMuMTE3IDMuMTE3IDAgMCAwIDMuMDA4LTIuMzI3aDEuMTY3YTMuMTA5IDMuMTA5IDAgMCAwIDMuMDEgMi4zMjdjLjU3NiAwIDEuMTEtLjE2IDEuNTctLjQzLjE4LjUyLjIzNiAxLjA2My4xMzkgMS42MDV6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="22" font-weight="600">
+        Jest
+      </text>
+    </g>
+  </svg>
+
+  <!-- Webpack Badge -->
+  <svg
+    class="badge"
+    x="357"
+    y="122"
+    width="82"
+    height="22"
+    viewBox="0 0 82 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="webpack-label">
+    <title id="webpack-label">Webpack</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#4E7A8F" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+V2VicGFjazwvdGl0bGU+PHBhdGggZD0iTTIyLjE5ODcgMTguNDk4bC05Ljc2OTkgNS41MDIydi00LjI4NTVsNi4wODcyLTMuMzMzOCAzLjY4MjYgMi4xMTd6bS42NjgzLS42MDI2VjYuMzg4NGwtMy41NzUyIDIuMDU0NHY3LjM5NnptLTIxLjA2NTcuNjAyNmw5Ljc2OTkgNS41MDIydi00LjI4NTVMNS40ODQgMTYuMzgwOWwtMy42ODI2IDIuMTE3em0tLjY2ODMtLjYwMjZWNi4zODg0bDMuNTc1MSAyLjA1NDR2Ny4zOTZ6bS40MTgzLTEyLjI1MTVsMTAuMDE5OS01LjY0NHY0LjE0MzRMNS4xNTIgNy42NTg2bC0uMDQ4OS4wMjh6bTIwLjg5NzUgMGwtMTAuMDItNS42NDR2NC4xNDM0bDYuNDE5MiAzLjUxNTQuMDQ4OS4wMjggMy41NTE4LTIuMDQyN3ptLTEwLjg3NzUgMTMuMDk2bC02LjAwNTYtMy4yODczVjguOTM4NGw2LjAwNTQgMy40NTI1djYuMzQ5em0uODU3NSAwbDYuMDA1My0zLjI4NzNWOC45Mzg0bC02LjAwNTMgMy40NTI1ek01Ljk3MjQgOC4xODQ1bDYuMDI4Ny0zLjMwMTVMMTguMDMgOC4xODQ1bC02LjAyODggMy40NjY1eiIvPjwvc3ZnPg==" />
+      <text class="badge__text" x="23" y="15" textLength="53" font-weight="600">
+        Webpack
+      </text>
+    </g>
+  </svg>
+
+  <!-- GitHub Actions Badge -->
+  <svg
+    class="badge"
+    x="13.5"
+    y="160"
+    width="119"
+    height="22"
+    viewBox="0 0 119 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="github-actions-label">
+    <title id="github-actions-label">GitHub Actions</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#1A73DA" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0SHViIEFjdGlvbnM8L3RpdGxlPjxwYXRoIGQ9Ik0xMC45ODQgMTMuODM2YS41LjUgMCAwIDEtLjM1My0uMTQ2bC0uNzQ1LS43NDNhLjUuNSAwIDEgMSAuNzA2LS43MDhsLjM5Mi4zOTEgMS4xODEtMS4xOGEuNS41IDAgMCAxIC43MDguNzA3bC0xLjUzNSAxLjUzM2EuNTA0LjUwNCAwIDAgMS0uMzU0LjE0NnptOS4zNTMtLjE0N2wxLjUzNC0xLjUzMmEuNS41IDAgMCAwLS43MDctLjcwN2wtMS4xODEgMS4xOC0uMzkyLS4zOTFhLjUuNSAwIDEgMC0uNzA2LjcwOGwuNzQ2Ljc0M2EuNDk3LjQ5NyAwIDAgMCAuNzA2LS4wMDF6TTQuNTI3IDcuNDUybDIuNTU3LTEuNTg1QTEgMSAwIDAgMCA3LjA5IDQuMTdMNC41MzMgMi41NkExIDEgMCAwIDAgMyAzLjQwNnYzLjE5NmExLjAwMSAxLjAwMSAwIDAgMCAxLjUyNy44NXptMi4wMy0yLjQzNkw0IDYuNjAyVjMuNDA2bDIuNTU3IDEuNjF6TTI0IDEyLjVjMCAxLjkzLTEuNTcgMy41LTMuNSAzLjVhMy41MDMgMy41MDMgMCAwIDEtMy40Ni0zaC0yLjA4YTMuNTAzIDMuNTAzIDAgMCAxLTMuNDYgMyAzLjUwMiAzLjUwMiAwIDAgMS0zLjQ2LTNoLS41NThjLS45NzIgMC0xLjg1LS4zOTktMi40ODItMS4wNDJWMTdjMCAxLjY1NCAxLjM0NiAzIDMgM2guMDRjLjI0NC0xLjY5MyAxLjctMyAzLjQ2LTMgMS45MyAwIDMuNSAxLjU3IDMuNSAzLjVTMTMuNDMgMjQgMTEuNSAyNGEzLjUwMiAzLjUwMiAwIDAgMS0zLjQ2LTNIOGMtMi4yMDYgMC00LTEuNzk0LTQtNFY5Ljg5OUE1LjAwOCA1LjAwOCAwIDAgMSAwIDVjMC0yLjc1NyAyLjI0My01IDUtNXM1IDIuMjQzIDUgNWE1LjAwNSA1LjAwNSAwIDAgMS00Ljk1MiA0Ljk5OEEyLjQ4MiAyLjQ4MiAwIDAgMCA3LjQ4MiAxMmguNTU4Yy4yNDQtMS42OTMgMS43LTMgMy40Ni0zYTMuNTAyIDMuNTAyIDAgMCAxIDMuNDYgM2gyLjA4YTMuNTAzIDMuNTAzIDAgMCAxIDMuNDYtM2MxLjkzIDAgMy41IDEuNTcgMy41IDMuNXptLTE1IDhjMCAxLjM3OCAxLjEyMiAyLjUgMi41IDIuNXMyLjUtMS4xMjIgMi41LTIuNS0xLjEyMi0yLjUtMi41LTIuNVM5IDE5LjEyMiA5IDIwLjV6TTUgOWMyLjIwNiAwIDQtMS43OTQgNC00UzcuMjA2IDEgNSAxIDEgMi43OTQgMSA1czEuNzk0IDQgNCA0em05IDMuNWMwLTEuMzc4LTEuMTIyLTIuNS0yLjUtMi41UzkgMTEuMTIyIDkgMTIuNXMxLjEyMiAyLjUgMi41IDIuNSAyLjUtMS4xMjIgMi41LTIuNXptOSAwYzAtMS4zNzgtMS4xMjItMi41LTIuNS0yLjVTMTggMTEuMTIyIDE4IDEyLjVzMS4xMjIgMi41IDIuNSAyLjUgMi41LTEuMTIyIDIuNS0yLjV6bS0xMyA4YS41LjUgMCAxIDAgMSAwIC41LjUgMCAwIDAtMSAwem0yIDBhLjUuNSAwIDEgMCAxIDAgLjUuNSAwIDAgMC0xIDB6bTEyIDBjMCAxLjkzLTEuNTcgMy41LTMuNSAzLjVhMy41MDMgMy41MDMgMCAwIDEtMy40Ni0zLjAwMmMtLjAwNy4wMDEtLjAxMy4wMDUtLjAyMS4wMDVsLS41MDYuMDE3aC0uMDE3YS41LjUgMCAwIDEtLjAxNi0uOTk5bC41MDYtLjAxN2MuMDE4LS4wMDIuMDM1LjAwNi4wNTIuMDA3QTMuNTAzIDMuNTAzIDAgMCAxIDIwLjUgMTdjMS45MyAwIDMuNSAxLjU3IDMuNSAzLjV6bS0xIDBjMC0xLjM3OC0xLjEyMi0yLjUtMi41LTIuNVMxOCAxOS4xMjIgMTggMjAuNXMxLjEyMiAyLjUgMi41IDIuNSAyLjUtMS4xMjIgMi41LTIuNXoiLz48L3N2Zz4=" />
+      <text class="badge__text" x="23" y="15" textLength="90" font-weight="600">
+        GitHub Actions
+      </text>
+    </g>
+  </svg>
+
+  <!-- Git Badge -->
+  <svg
+    class="badge"
+    x="148.5"
+    y="160"
+    width="46"
+    height="22"
+    viewBox="0 0 46 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="git-label">
+    <title id="git-label">Git</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#F05032" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2l0PC90aXRsZT48cGF0aCBkPSJNMjMuNTQ2IDEwLjkzTDEzLjA2Ny40NTJjLS42MDQtLjYwMy0xLjU4Mi0uNjAzLTIuMTg4IDBMOC43MDggMi42MjdsMi43NiAyLjc2Yy42NDUtLjIxNSAxLjM3OS0uMDcgMS44ODkuNDQxLjUxNi41MTUuNjU4IDEuMjU4LjQzOCAxLjlsMi42NTggMi42NmMuNjQ1LS4yMjMgMS4zODctLjA3OCAxLjkuNDM1LjcyMS43Mi43MjEgMS44ODQgMCAyLjYwNC0uNzE5LjcxOS0xLjg4MS43MTktMi42IDAtLjUzOS0uNTQxLS42NzQtMS4zMzctLjQwNC0xLjk5NkwxMi44NiA4Ljk1NXY2LjUyNWMuMTc2LjA4Ni4zNDIuMjAzLjQ4OC4zNDguNzEzLjcyMS43MTMgMS44ODMgMCAyLjYtLjcxOS43MjEtMS44ODkuNzIxLTIuNjA5IDAtLjcxOS0uNzE5LS43MTktMS44NzkgMC0yLjU5OC4xODItLjE4LjM4Ny0uMzE2LjYwNS0uNDA2VjguODM1Yy0uMjE3LS4wOTEtLjQyNC0uMjIyLS42LS40MDEtLjU0NS0uNTQ1LS42NzYtMS4zNDItLjM5Ni0yLjAwOUw3LjYzNiAzLjcuNDUgMTAuODgxYy0uNi42MDUtLjYgMS41ODQgMCAyLjE4OWwxMC40OCAxMC40NzdjLjYwNC42MDQgMS41ODIuNjA0IDIuMTg2IDBsMTAuNDMtMTAuNDNjLjYwNS0uNjAzLjYwNS0xLjU4MiAwLTIuMTg3Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="17" font-weight="600">
+        Git
+      </text>
+    </g>
+  </svg>
+
+  <!-- Linux Badge -->
+  <svg
+    class="badge"
+    x="210.5"
+    y="160"
+    width="62"
+    height="22"
+    viewBox="0 0 62 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="linux-label">
+    <title id="linux-label">Linux</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#907010" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGludXg8L3RpdGxlPjxwYXRoIGQ9Ik0xMi41MDQgMGMtLjE1NSAwLS4zMTUuMDA4LS40OC4wMjEtNC4yMjYuMzMzLTMuMTA1IDQuODA3LTMuMTcgNi4yOTgtLjA3NiAxLjA5Mi0uMyAxLjk1My0xLjA1IDMuMDItLjg4NSAxLjA1MS0yLjEyNyAyLjc1LTIuNzE2IDQuNTIxLS4yNzguODMyLS40MSAxLjY4NC0uMjg3IDIuNDg5YS40MjQuNDI0IDAgMDAtLjExLjEzNWMtLjI2LjI2OC0uNDUuNi0uNjYzLjgzOS0uMTk5LjE5OS0uNDg1LjI2Ny0uNzk3LjQtLjMxMy4xMzYtLjY1OC4yNjktLjg2NC42OC0uMDkuMTg5LS4xMzYuMzk0LS4xMzIuNjAyIDAgLjE5OS4wMjcuNC4wNTUuNTM2LjA1OC4zOTkuMTE2LjcyOC4wNC45Ny0uMjQ5LjY4LS4yOCAxLjE0NS0uMTA2IDEuNDg0LjE3NC4zMzQuNTM1LjQ3Ljk0LjYwMS44MS4yIDEuOTEuMTM1IDIuNzc0LjYuOTI2LjQ2NiAxLjg2Ni42NyAyLjYxNi40Ny41MjYtLjExNi45Ny0uNDY0IDEuMjA4LS45NDYuNTg3LS4wMDMgMS4yMy0uMjY5IDIuMjYtLjMzNC42OTktLjA1OCAxLjU3NC4yNjcgMi41NzcuMi4wMjUuMTM0LjA2My4xOTguMTE0LjMzM2wuMDAzLjAwM2MuMzkxLjc3OCAxLjExMyAxLjEzMiAxLjg4NCAxLjA3MS43NzEtLjA2IDEuNTkyLS41MzYgMi4yNTctMS4zMDYuNjMxLS43NjUgMS42ODMtMS4wODQgMi4zNzgtMS41MDMuMzQ4LS4xOTkuNjI5LS40NjkuNjQ5LS44NTMuMDIzLS40LS4yLS44MTEtLjcxNC0xLjM3NnYtLjA5N2wtLjAwMy0uMDAzYy0uMTctLjItLjI1LS41MzUtLjMzOC0uOTI2LS4wODUtLjQwMS0uMTgyLS43ODYtLjQ5Mi0xLjA0NmgtLjAwM2MtLjA1OS0uMDU0LS4xMjMtLjA2Ny0uMTg4LS4xMzVhLjM1Ny4zNTcgMCAwMC0uMTktLjA2NGMuNDMxLTEuMjc4LjI2NC0yLjU1LS4xNzMtMy42OTQtLjUzMy0xLjQxLTEuNDY1LTIuNjM4LTIuMTc1LTMuNDgzLS43OTYtMS4wMDUtMS41NzYtMS45NTctMS41Ni0zLjM2OC4wMjYtMi4xNTIuMjM2LTYuMTMzLTMuNTQ0LTYuMTM5em0uNTI5IDMuNDA1aC4wMTNjLjIxMyAwIC4zOTYuMDYyLjU4NC4xOTguMTkuMTM1LjMzLjMzMi40MzguNTMzLjEwNS4yNTkuMTU4LjQ1OS4xNjYuNzI0IDAtLjAyLjAwNi0uMDQuMDA2LS4wNnYuMTA1YS4wODYuMDg2IDAgMDEtLjAwNC0uMDIxbC0uMDA0LS4wMjRhMS44MDcgMS44MDcgMCAwMS0uMTUuNzA2Ljk1My45NTMgMCAwMS0uMjEzLjMzNS43MS43MSAwIDAwLS4wODgtLjA0MmMtLjEwNC0uMDQ1LS4xOTgtLjA2NC0uMjg0LS4xMzNhMS4zMTIgMS4zMTIgMCAwMC0uMjItLjA2NmMuMDUtLjA2LjE0Ni0uMTMzLjE4My0uMTk4LjA1My0uMTI4LjA4Mi0uMjY0LjA4OC0uNDAydi0uMDJhMS4yMSAxLjIxIDAgMDAtLjA2MS0uNGMtLjA0NS0uMTM0LS4xMDEtLjItLjE4My0uMzMzLS4wODQtLjA2Ni0uMTY3LS4xMzItLjI2Ny0uMTMyaC0uMDE2Yy0uMDkzIDAtLjE3Ni4wMy0uMjYyLjEzMmEuOC44IDAgMDAtLjIwNS4zMzQgMS4xOCAxLjE4IDAgMDAtLjA5LjR2LjAxOWMuMDAyLjA4OS4wMDguMTc5LjAyLjI2Ny0uMTkzLS4wNjctLjQzOC0uMTM1LS42MDctLjIwMmExLjYzNSAxLjYzNSAwIDAxLS4wMTgtLjJ2LS4wMmExLjc3MiAxLjc3MiAwIDAxLjE1LS43NjhjLjA4Mi0uMjIuMjMyLS40MDYuNDMtLjUzM2EuOTg1Ljk4NSAwIDAxLjU5NC0uMnptLTIuOTYyLjA1OWguMDM2Yy4xNDIgMCAuMjcuMDQ4LjM5OS4xMzUuMTQ2LjEyOS4yNjQuMjg4LjM0NC40NjUuMDkuMTk5LjE0LjQuMTUzLjY2N3YuMDA0Yy4wMDcuMTM0LjAwNi4yLS4wMDIuMjY2di4wOGMtLjAzLjAwNy0uMDU2LjAxOC0uMDgzLjAyNC0uMTUyLjA1NS0uMjc0LjEzNS0uMzkzLjIuMDEyLS4wOS4wMTMtLjE4LjAwMy0uMjY3di0uMDE1Yy0uMDEyLS4xMzMtLjA0LS4yLS4wODItLjMzM2EuNjEzLjYxMyAwIDAwLS4xNjYtLjI2Ny4yNDguMjQ4IDAgMDAtLjE4My0uMDY0aC0uMDIxYy0uMDcxLjAwNi0uMTMuMDQtLjE4Ni4xMzJhLjU1Mi41NTIgMCAwMC0uMTIuMjcuOTQ0Ljk0NCAwIDAwLS4wMjMuMzN2LjAxNWMuMDEyLjEzNS4wMzcuMi4wOC4zMzQuMDQ2LjEzNC4wOTguMi4xNjYuMjY4LjAxLjAwOS4wMi4wMTguMDM0LjAyNC0uMDcuMDU3LS4xMTcuMDctLjE3Ni4xMzZhLjMwNC4zMDQgMCAwMS0uMTMxLjA2OCAyLjYyIDIuNjIgMCAwMS0uMjc1LS40MDIgMS43NzIgMS43NzIgMCAwMS0uMTU1LS42NjcgMS43NTkgMS43NTkgMCAwMS4wOC0uNjY4IDEuNDMgMS40MyAwIDAxLjI4My0uNTM1Yy4xMjgtLjEzMy4yNi0uMi40MTgtLjJ6bTEuMzcgMS43MDZjLjMzMiAwIC43MzMuMDY1IDEuMjE2LjM5OS4yOTMuMi41MjMuMjY5IDEuMDUyLjQ2OGguMDAzYy4yNTUuMTM2LjQwNS4yNjYuNDc4LjM5OXYtLjEzMWEuNTcxLjU3MSAwIDAxLjAxNi40N2MtLjEyMy4zMS0uNTE2LjY0My0xLjA2My44NDJ2LjAwMmMtLjI2OC4xMzUtLjUwMS4zMzMtLjc3NS40NjUtLjI3Ni4xMzUtLjU4OC4yOTItMS4wMTIuMjY3YTEuMTM5IDEuMTM5IDAgMDEtLjQ0OC0uMDY3IDMuNTY2IDMuNTY2IDAgMDEtLjMyMi0uMTk4Yy0uMTk1LS4xMzUtLjM2My0uMzMyLS42MTItLjQ2NXYtLjAwNWgtLjAwNWMtLjQtLjI0Ni0uNjE2LS41MTItLjY4Ni0uNzEtLjA3LS4yNjgtLjAwNS0uNDcuMTkzLS42LjIyNC0uMTM1LjM4LS4yNzEuNDgzLS4zMzYuMTA0LS4wNzQuMTQzLS4xMDIuMTc2LS4xMzFoLjAwMnYtLjAwM2MuMTY5LS4yMDIuNDM2LS40Ny44MzktLjYwMS4xMzktLjAzNi4yOTQtLjA2NS40NjYtLjA2NXptMi44IDIuMTQyYy4zNTggMS40MTcgMS4xOTYgMy40NzUgMS43MzUgNC40NzMuMjg2LjUzNC44NTUgMS42NTkgMS4xMDIgMy4wMjQuMTU2LS4wMDUuMzMuMDE4LjUxMy4wNjQuNjQ2LTEuNjcxLS41NDYtMy40NjctMS4wODktMy45NjYtLjIyLS4yLS4yMzItLjMzNS0uMTIzLS4zMzUuNTkuNTM0IDEuMzY1IDEuNTcyIDEuNjQ2IDIuNzU3LjEzLjUzNS4xNiAxLjEwNC4wMjEgMS42Ny4wNjcuMDI4LjEzNS4wNi4yMDUuMDY3IDEuMDMyLjUzNCAxLjQxMy45MzggMS4yMyAxLjUzN3YtLjA0M2MtLjA2LS4wMDMtLjEyIDAtLjE4IDBoLS4wMTZjLjE1MS0uNDY3LS4xODItLjgyNS0xLjA2NS0xLjIyNC0uOTE1LS40LTEuNjQ2LS4zMzYtMS43Ny40NjUtLjAwOC4wNDMtLjAxMy4wNjYtLjAxOC4xMzUtLjA2OC4wMjMtLjEzOS4wNTMtLjIwOS4wNjQtLjQzLjI2OC0uNjYyLjY2OS0uNzkzIDEuMTg3LS4xMy41MzMtLjE3IDEuMTU2LS4yMDUgMS44Njl2LjAwM2MtLjAyLjMzNC0uMTcuODM4LS4zMTkgMS4zNS0xLjUgMS4wNzItMy41OCAxLjUzOC01LjM0OC4zMzRhMi42NDUgMi42NDUgMCAwMC0uNDAyLS41MzMgMS40NSAxLjQ1IDAgMDAtLjI3NS0uMzMzYy4xODIgMCAuMzM4LS4wMy40NjUtLjA2N2EuNjE1LjYxNSAwIDAwLjMxNC0uMzM0Yy4xMDgtLjI2NyAwLS42OTctLjM0NS0xLjE2My0uMzQ1LS40NjctLjkzMS0uOTk1LTEuNzg4LTEuNTIxLS42My0uNC0uOTg2LS44Ny0xLjE1LTEuMzk2LS4xNjUtLjUzNC0uMTQzLTEuMDg1LS4wMTUtMS42NDUuMjQ1LTEuMDcuODczLTIuMTEgMS4yNzQtMi43NjMuMTA3LS4wNjUuMDM3LjEzNS0uNDA4Ljk3NC0uMzk2Ljc1MS0xLjE0IDIuNDk3LS4xMjIgMy44NTRhOC4xMjMgOC4xMjMgMCAwMS42NDctMi44NzZjLjU2NC0xLjI3OCAxLjc0My0zLjUwNCAxLjgzNi01LjI2OC4wNDguMDM2LjIxNy4xMzUuMjg5LjIwMi4yMTguMTMzLjM4LjMzMy41OS40NjUuMjEuMjAxLjQ3Ny4zMzUuODc2LjMzNS4wMzkuMDAzLjA3NS4wMDYuMTEuMDA2LjQxMiAwIC43My0uMTM0Ljk5Ny0uMjY4LjI5LS4xMzQuNTItLjMzNC43NC0uNGguMDA1Yy40NjctLjEzNS44MzUtLjQwMiAxLjA0NC0uN3ptMi4xODUgOC45NThjLjAzNy42LjM0MyAxLjI0NS44ODIgMS4zNzcuNTg4LjEzNCAxLjQzNC0uMzMzIDEuNzkxLS43NjVsLjIxMS0uMDFjLjMxNS0uMDA3LjU3Ny4wMS44NDcuMjY4bC4wMDMuMDAzYy4yMDguMTk5LjMwNS41My4zOTEuODc2LjA4NS40LjE1NC43OC40MDkgMS4wNjYuNDg2LjUyNy42NDUuOTA2LjYzNiAxLjE0bC4wMDMtLjAwN3YuMDE4bC0uMDAzLS4wMTJjLS4wMTUuMjYyLS4xODUuMzk2LS40OTguNTk1LS42My40MDEtMS43NDYuNzEyLTIuNDU3IDEuNTctLjYxOC43MzctMS4zNyAxLjE0LTIuMDM2IDEuMTkxLS42NjQuMDUzLTEuMjM3LS4yLTEuNTc0LS44OThsLS4wMDUtLjAwM2MtLjIxLS40LS4xMi0xLjAyNS4wNTYtMS42OS4xNzYtLjY2OC40MjgtMS4zNDQuNDYzLTEuODk3LjAzNy0uNzE0LjA3Ni0xLjMzNS4xOTUtMS44MTQuMTItLjQ2NS4zMDgtLjc5Ny42NDEtLjk4NGwuMDQ1LS4wMjJ6bS0xMC44MTQuMDQ5aC4wMWMuMDUzIDAgLjEwNS4wMDUuMTU3LjAxNC4zNzYuMDU1LjcwNi4zMzMgMS4wMjMuNzUybC45MSAxLjY2NC4wMDMuMDAzYy4yNDMuNTMzLjc1NCAxLjA2NCAxLjE4OSAxLjYzNy40MzQuNTk4Ljc3IDEuMTMxLjcyOSAxLjU3di4wMDZjLS4wNTcuNzQ0LS40OCAxLjE0OC0xLjEyNSAxLjI5NC0uNjQ1LjEzNS0xLjUyLjAwMi0yLjM5NS0uNDY0LS45NjgtLjUzNi0yLjExOC0uNDY5LTIuODU3LS42MDItLjM2OS0uMDY2LS42MS0uMi0uNzIzLS40LS4xMS0uMi0uMTEzLS42MDIuMTIzLTEuMjN2LS4wMDRsLjAwMi0uMDAzYy4xMTctLjMzNC4wMy0uNzUyLS4wMjctMS4xMTgtLjA1NS0uNDAxLS4wODMtLjcxLjA0My0uOTQuMTYtLjMzNC4zOTYtLjQuNjktLjUzMy4yOTQtLjEzNS42NC0uMjAyLjkxNS0uNDdoLjAwMnYtLjAwMmMuMjU2LS4yNjguNDQ1LS42MDEuNjY4LS44MzguMTktLjIwMS4zOC0uMzM2LjY2My0uMzM2em03LjE1OS05LjA3NGMtLjQzNS4yMDEtLjk0NS41MzUtMS40ODguNTM1LS41NDIgMC0uOTctLjI2Ny0xLjI4LS40NjYtLjE1NC0uMTM0LS4yOC0uMjY4LS4zNzMtLjMzNS0uMTY0LS4xMzQtLjE0NC0uMzMzLS4wNzQtLjMzMy4xMDkuMDE2LjEyOS4xMzQuMTk5LjIuMDk2LjA2Ni4yMTUuMi4zNi4zMzMuMjkyLjIuNjguNDY3IDEuMTY3LjQ2Ny40ODUgMCAxLjA1My0uMjY3IDEuMzk4LS40NjYuMTk1LS4xMzUuNDQ1LS4zMzQuNjQ4LS40NjcuMTU2LS4xMzYuMTQ5LS4yNjcuMjc5LS4yNjcuMTI4LjAxNi4wMzQuMTM0LS4xNDcuMzMyYTguMDk3IDguMDk3IDAgMDEtLjY5LjQ2OHptLTEuMDgyLTEuNTgzVjUuNjRjLS4wMDYtLjAyLjAxMy0uMDQyLjAyOS0uMDUuMDc0LS4wNDMuMTgtLjAyNy4yNi4wMDQuMDYzIDAgLjE2LjA2Ny4xNS4xMzUtLjAwNi4wNDktLjA4NS4wNjYtLjEzNS4wNjYtLjA1NSAwLS4wOTItLjA0My0uMTQxLS4wNjgtLjA1Mi0uMDE4LS4xNDYtLjAwOC0uMTYzLS4wNjV6bS0uNTUxIDBjLS4wMi4wNTgtLjExMy4wNDktLjE2Ni4wNjYtLjA0Ny4wMjUtLjA4Ni4wNjgtLjE0LjA2OC0uMDUgMC0uMTMtLjAyLS4xMzYtLjA2OC0uMDEtLjA2Ni4wODgtLjEzMy4xNS0uMTMzLjA4LS4wMzEuMTg0LS4wNDcuMjU5LS4wMDUuMDE5LjAwOS4wMzYuMDMuMDMuMDV2LjAyaC4wMDN6Ii8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="33" font-weight="600">
+        Linux
+      </text>
+    </g>
+  </svg>
+
+  <!-- Jupyter Badge -->
+  <svg
+    class="badge"
+    x="288.5"
+    y="160"
+    width="73"
+    height="22"
+    viewBox="0 0 73 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="jupyter-label">
+    <title id="jupyter-label">Jupyter</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#BA591A" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+SnVweXRlcjwvdGl0bGU+PHBhdGggZD0iTTcuMTU3IDIyLjIwMUExLjc4NCAxLjc5OSAwIDAgMSA1LjM3NCAyNGExLjc4NCAxLjc5OSAwIDAgMS0xLjc4NC0xLjc5OSAxLjc4NCAxLjc5OSAwIDAgMSAxLjc4NC0xLjc5OSAxLjc4NCAxLjc5OSAwIDAgMSAxLjc4MyAxLjc5OXpNMjAuNTgyIDEuNDI3YTEuNDE1IDEuNDI3IDAgMCAxLTEuNDE1IDEuNDI4IDEuNDE1IDEuNDI3IDAgMCAxLTEuNDE2LTEuNDI4QTEuNDE1IDEuNDI3IDAgMCAxIDE5LjE2NyAwYTEuNDE1IDEuNDI3IDAgMCAxIDEuNDE1IDEuNDI3ek00Ljk5MiAzLjMzNkExLjA0NyAxLjA1NiAwIDAgMSAzLjk0NiA0LjM5YTEuMDQ3IDEuMDU2IDAgMCAxLTEuMDQ3LTEuMDU1QTEuMDQ3IDEuMDU2IDAgMCAxIDMuOTQ2IDIuMjhhMS4wNDcgMS4wNTYgMCAwIDEgMS4wNDYgMS4wNTZ6bTcuMzM2IDEuNTE3YzMuNzY5IDAgNy4wNiAxLjM4IDguNzY4IDMuNDI0YTkuMzYzIDkuMzYzIDAgMCAwLTMuMzkzLTQuNTQ3IDkuMjM4IDkuMjM4IDAgMCAwLTUuMzc3LTEuNzI4QTkuMjM4IDkuMjM4IDAgMCAwIDYuOTUgMy43M2E5LjM2MyA5LjM2MyAwIDAgMC0zLjM5NCA0LjU0N2MxLjcxMy0yLjA0IDUuMDA0LTMuNDI0IDguNzcyLTMuNDI0em0uMDAxIDEzLjI5NWMtMy43NjggMC03LjA2LTEuMzgxLTguNzY4LTMuNDI1YTkuMzYzIDkuMzYzIDAgMCAwIDMuMzk0IDQuNTQ3QTkuMjM4IDkuMjM4IDAgMCAwIDEyLjMzIDIxYTkuMjM4IDkuMjM4IDAgMCAwIDUuMzc3LTEuNzI5IDkuMzYzIDkuMzYzIDAgMCAwIDMuMzkzLTQuNTQ3Yy0xLjcxMiAyLjA0NC01LjAwMyAzLjQyNS04Ljc3MiAzLjQyNVoiLz48L3N2Zz4=" />
+      <text class="badge__text" x="23" y="15" textLength="44" font-weight="600">
+        Jupyter
+      </text>
+    </g>
+  </svg>
+
+  <!-- Pandas Badge -->
+  <svg
+    class="badge"
+    x="377.5"
+    y="160"
+    width="71"
+    height="22"
+    viewBox="0 0 71 22"
+    xmlns="http://www.w3.org/2000/svg"
+    role="presentation"
+    aria-labelledby="pandas-label">
+    <title id="pandas-label">Pandas</title>
+    <rect class="badge__bg" width="100%" height="100%" rx="3" ry="3" fill="#5D5EFF" />
+    <g
+      class="badge_content"
+      fill="#fff"
+      font-family="DejaVu Sans, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, system-ui"
+      font-size="10"
+      text-rendering="geometricPrecision">
+      <image
+        class="badge__icon"
+        x="6"
+        y="4"
+        width="14"
+        height="14"
+        href="data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+cGFuZGFzPC90aXRsZT48cGF0aCBkPSJNMTYuOTIyIDBoMi42MjN2MTguMTA0aC0yLjYyM3ptLTQuMTI2IDEyLjk0aDIuNjIzdjIuNTdoLTIuNjIzem0wLTcuMDM3aDIuNjIzdjUuNDQ2aC0yLjYyM3ptMCAxMS4xOTdoMi42MjN2NS40NDZoLTIuNjIzek00LjQ1NiA1Ljg5NmgyLjYyMlYyNEg0LjQ1NXptNC4yMTMgMi41NTloMi42MjN2Mi41N0g4LjY3em0wIDQuMTUxaDIuNjIzdjUuNDQ3SDguNjd6bTAtMTEuMTg3aDIuNjIzdjUuNDQ2SDguNjdaIi8+PC9zdmc+" />
+      <text class="badge__text" x="23" y="15" textLength="42" font-weight="600">
+        Pandas
+      </text>
+    </g>
+  </svg>
+</svg>
